@@ -11,3 +11,76 @@ El sistema operativo que posee se llama freeRTOS y posee una implementación de 
 
 Dejo a continuación una tabla de características del [manual de Espressif](https://www.cleancss.com/user-manuals/2AC7Z/-ESPWROOM32).
 ![](https://imgur.com/PHEyAXy.png)
+
+## Usando el sensor de efecto Hall
+Con el ESP32 podemos detectar campos magnéticos mediante un sensor de efecto hall. A grandes rasgos este sensor puede determinar cuándo está expuesto a un campo magnético externo al detectar una diferencia de potencial a partir de la desviación de los flujos de electrones hacia el extremo de la placa que compone dicho sensor.
+
+Para esto es tan simple como usar la función `hallRead()` en el IDE arduino para ESP32 y nos retorna el valor al acercar un imán en la parte superior del encapsulado metálico.
+
+Ejemplo:
+```C
+void loop() {
+    Serial.println(hallRead());
+    delay(25);
+}
+```
+
+## Sensor touch
+Los ESP32 cuentan con 10 sensores táctiles capacitivos que son:
+- GPIO2 = Touch 2 
+- GPIO4 = Touch 0,
+- GPIO12 = Touch 5,
+- GPIO13 = Touch 4,
+- GPIO14 = Touch 6,
+- GPIO15 = Touch 3,
+- GPIO27 = Touch 7,
+- GPIO32 = Touch 9,
+- GPIO33 =  Touch 9,
+- GPIO0 -> Puede no estar disponible en versiones con 30 GPIOs = Touch 1,
+
+Con la función `touchRead(GPIO)` podemos leer un sensor táctil. Un ejemplo sencillo para utilizar el touch 0 con GPIO4 sería:
+```c
+Serial.println(touchRead(4));
+delay(1000)
+```
+### Links útiles
+[Capacitive Touch Sensor -  ESP32 ](https://randomnerdtutorials.com/esp32-touch-pins-arduino-ide/)
+
+## Usando los dos núcleos en paralelo
+Después de unos meses con mi sensor de temperatura y humedad favorito DHT22 enviando datos por MQTT para tenerla en HomeAssistant, me di cuenta de que el ESP32 tenía 2 núcleos para utilizar. con freeRTOS podemos aprovechar esto y ejecutar wifi en un núcleo y procesar los datos del sensor en el otro. Por defecto cuando utilizamos el ESP32 estamos ejecutando las tareas sobre le núcleo con índice 1.
+
+En el siguiente ejemplo vemos un código que ejecuta en momentos diferentes, tareas de manera independiente.
+```C
+TaskHandle_t Task0;
+
+void setup() {
+	Serial.begin(115200);
+	xTaskCreatePinnedToCore(
+		loop0, // Función a ejecutar
+		"Task_0", // nombre de la tarea
+		1000, // tamaño de memoria en bytes que será asignada a la tarea
+		NULL, // parámetros usados para crear la tarea
+		1, // prioridad de ejecución
+		&Task0, // Manejador que referencia a la tarea que será creada
+		0 // procesador a utilizar (num processors - 1)
+	);
+}
+
+void loop() {
+	Serial.println("Core: " + String(xPortGetCoreID()));
+	delay(1000);
+}
+
+void loop0(void *parameter) {
+	while(true) {
+		Serial.println("\t\tCore: " + String(xPortGetCoreID()));
+		delay(250);
+	}
+}
+```
+
+En el monitor de salida se verá:
+![](https://imgur.com/JYAvkKv.png)
+
+Más documentación sobre esto
+[Task API](https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/system/freertos.html)
