@@ -18,7 +18,7 @@ Con el ESP32 podemos detectar campos magnéticos mediante un sensor de efecto ha
 Para esto es tan simple como usar la función `hallRead()` en el IDE arduino para ESP32 y nos retorna el valor al acercar un imán en la parte superior del encapsulado metálico.
 
 Ejemplo:
-```C
+```c
 void loop() {
     Serial.println(hallRead());
     delay(25);
@@ -50,7 +50,7 @@ delay(1000)
 Después de unos meses con mi sensor de temperatura y humedad favorito DHT22 enviando datos por MQTT para tenerla en HomeAssistant, me di cuenta de que el ESP32 tenía 2 núcleos para utilizar. con freeRTOS podemos aprovechar esto y ejecutar wifi en un núcleo y procesar los datos del sensor en el otro. Por defecto cuando utilizamos el ESP32 estamos ejecutando las tareas sobre le núcleo con índice 1.
 
 En el siguiente ejemplo vemos un código que ejecuta en momentos diferentes, tareas de manera independiente.
-```C
+```c
 TaskHandle_t Task0;
 
 void setup() {
@@ -84,3 +84,9 @@ En el monitor de salida se verá:
 
 Más documentación sobre esto
 [Task API](https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/system/freertos.html)
+
+## Videos
+- [SinapTec - ESP32 Desde Cero](https://www.youtube.com/watch?v=Odh0LWXOZZk&list=PL2xmtLUbEugnUoLiRTqwCm5wi2MSzsw3D&index=1)
+## Links
+- [Sensor de efecto Hall](https://es.wikipedia.org/wiki/Sensor_de_efecto_Hall)
+- [Efecto Hall](https://es.wikipedia.org/wiki/Efecto_Hall)
