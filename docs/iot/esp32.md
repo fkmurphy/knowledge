@@ -10,6 +10,7 @@ Una de las características que más me llamó la atención es que cuenta con 2 
 El sistema operativo que posee se llama freeRTOS y posee una implementación de la pila TCP/IP propia llamada LWIP. En un [artículo](https://www.freertos.org/FreeRTOS_Support_Forum_Archive/November_2014/freertos_FreeRTOS_TCP_IP_stack_vs_lwIP_8324ceabj.html) se mencionan las razones por las que se usa esta implementación y no otras. 
 
 Dejo a continuación una tabla de características del [manual de Espressif](https://www.cleancss.com/user-manuals/2AC7Z/-ESPWROOM32).
+
 ![](https://imgur.com/PHEyAXy.png)
 
 ## Usando el sensor de efecto Hall
@@ -80,9 +81,11 @@ void loop0(void *parameter) {
 ```
 
 En el monitor de salida se verá:
+
 ![](https://imgur.com/JYAvkKv.png)
 
 Más documentación sobre esto
+
 [Task API](https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/system/freertos.html)
 
 ## Videos
@@ -90,3 +93,5 @@ Más documentación sobre esto
 ## Links
 - [Sensor de efecto Hall](https://es.wikipedia.org/wiki/Sensor_de_efecto_Hall)
 - [Efecto Hall](https://es.wikipedia.org/wiki/Efecto_Hall)
+- [freeRTOS](https://www.freertos.org/)
+- [Diferencias del ESP32 con respecto a ESP8266](https://programarfacil.com/esp8266/esp32/)
