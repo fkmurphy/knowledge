@@ -8,14 +8,19 @@ title: Introducción
 Con la intención de crear un índice de conocimiento de lo que voy leyendo sobre diversos temas, creo este espacio.
 
 # Contenido
-- [Inundación 1899 - Viedma - Río Negro](./argentina/historico/viedma/inundacion-1899)
-	- [Planos](./argentina/historico/viedma/inundacion-1899/planos-inundacion-1899.md)
-- [Deuda Plan Castello](./argentina/rio-negro/deuda-castello.md)
-- [Ethereum](./blockchain/ethereum/ethereum.md)
-- [Foundry](./blockchain/tools/foundry/foundry.md)
-- [Tenderly](./blockchain/tools/tenderly/tenderly.md)
-- [Herramientas de usuario final - Inteligencia Artificial](./artificial-intelligence/tools.md)
+- Río Negro
+	- [Inundación 1899 - Viedma - Río Negro](./argentina/historico/viedma/inundacion-1899)
+		- [Planos](./argentina/historico/viedma/inundacion-1899/planos-inundacion-1899.md)
+	- [Deuda Plan Castello](./argentina/rio-negro/deuda-castello.md)
+- Blockchain
+	- [Ethereum](./blockchain/ethereum/ethereum.md)
+	- [Foun dry](./blockchain/tools/foundry/foundry.md)
+	- [Tenderly](./blockchain/tools/tenderly/tenderly.md)
+- ML
+	- [Chatbot Rasa Framework](./artificial-intelligence/rasa/rasa.md)
+	- [Herramientas de usuario final - Inteligencia Artificial](./artificial-intelligence/tools.md)
 - [Daily Agosto](./daily/2023/2023-Aug.md)
+- [Daily Septiembre](./daily/2023/2023-Sep.md)
 
 ## Licencia
 La licencia para todo el contenido que se encuentra en este sitio es CC4

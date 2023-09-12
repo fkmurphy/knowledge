@@ -8,11 +8,12 @@ Hay partes pocas del libro que saltee porque creo que no es necesario para el ob
 Nuevamente pido disculpas y espero que sea útil como resumen en español.
 # Machine Learning
 ## Etapas
-Training stage
-Inference stage
-Evaluation stage
+- Training stage
+- Inference stage
+- Evaluation stage
 ## Métricas
 Interesante [Matriz de confusión](../confusion-matrix.md)
+
 Falta ver mejor las métricas finales de Recall, precision, F1Score y accuracy.
 ## Overfitting and underfitting
 El overfitting, cuando se utilizan muchos datos del set para entrenar y el modelo no puede generalizar. "Recuerda más de lo que aprende". A la hora de clasificar los datos de entrenamiento funciona bien, pero con datos nuevos no. El underfitting:
@@ -49,15 +50,16 @@ Un ejemplo tomando de ejemplo IEPY una herramienta opensource que es usada para 
 - números de tokens
 - symbols_in_between
 - in_same_sentence
-- mas en pagina 30.
-Después de un montón de funcionalidades, recien se utilizan algunos algoritmos de ML para hacer modelos. Por ejemplo, clasificadores:
+- (más en página 30)
+
+Después de un montón de funcionalidades, recién se utilizan algunos algoritmos de ML para hacer modelos. Por ejemplo, clasificadores:
 - SGD
 - NN
 - SVC
 - RF
 - AdaBoost
 
-**RASA** resuelve "entity recognition" (reconocimiento de entidades) a través de la aplicación tradicional de NLP. La ventaja es que el proceso de entrenamiento puede ser realmente rapido y requiere menos información (label data) para entrenar un modelo funcional. 
+**RASA** resuelve "entity recognition" (reconocimiento de entidades) a través de la aplicación tradicional de NLP. La ventaja es que el proceso de entrenamiento puede ser realmente rápido y requiere menos información (label data) para entrenar un modelo funcional. 
 
 En 2013 Tomas Mikolov publica Continuos BOW (CBOW) y skip-gram models. Poco después de word2vec fue lanzado. Word2vec resuelve el principal punto de nuestro primer problema de una forma elegante, entrenando una shallow neural network (red neuronal poco profunda) con un texto corpus largo (que es un dataset gigante de mucho tiempo 1b palabras por ejemplo COCA).
 > Una shallow network es una red que posee una sola capa oculta (hidden layer) a  diferencia de deep network.
@@ -99,15 +101,15 @@ Hay dos tipos principales:
 
 >Los chatbot son un diamente en la corona para NLP. Es un reto, y tipicamente no encontramos que se usen los mismos patrones a usar en todas partes, desde ambas perspectivas tecnologia y negocios. Los chitchat chatbots son también muy importantes e interesantes pero no serán abordados en este libro.
 
-## Is a chatbot really necessary? (business domain) Pagina 16
+## Is a chatbot really necessary? (business domain) Página 16
 
 ## Introduction to chatbot architecture
 Al principio los chatbots estaban basados en plantillas y reglas, un ejemplo es AIML (AI Markup Language), que extrae información por reglas desde las preguntas de los usuarios y puede correr scripts para obtener información mediante una API para enriquecer las respuestas. Estos chatbot son llamados Artificial Linguistic Internet Computer Entity(Alicebot) y contienen 40.000 tipos de datos diferentes, que construyen una gran base de conocimiento basada en reglas. Esto tiene sus desventajas porque se suele hacer difícil encontrar la respuestas para las preguntas.
 
-Recientemente, el proceso principal para construir chatbots está unificado. Consiste en 5 modulos diferentes:
+Recientemente, el proceso principal para construir chatbots está unificado. Consiste en 5 módulos diferentes:
 - ASR to convert user speech into text
 - NLU para interpretar la entrada del usuario
-- DM tomar decisiones sobre la siguiente accion con respecto al estado del dialogo en curso.
+- DM tomar decisiones sobre la siguiente acción con respecto al estado del dialogo en curso.
 - NLG (natural language generation) para generar respuestas basadas en texto
 - TTS para convertir la salida de texto en voz.
 
@@ -116,9 +118,9 @@ El libro se centra en NLU y DM principalmente.
 ## ASR (ver hoja 18)
 
 ## NLU Natural Language understanding (hoja 19)
-Interpreta la entrada del usuario basada en texto. Reconoce el `intento` y las entidades relevantes de lo que introdujo el usuario. El modulo NLU principalmente clasifica las preguntas de los usuarios a nivel de oracion y obtiene la intención clara por clasificación de intención. El NLU reconoce las entidades claves a nivel palabra para una pregunta y realiza el llenado de espacios. Para sistemas de dialogos multi-dominio, hay una tarea adicional antes de clasificar el `intent` y NER, que es clasificar el dominio.
+Interpreta la entrada del usuario basada en texto. Reconoce el `intento` y las entidades relevantes de lo que introdujo el usuario. El modulo NLU principalmente clasifica las preguntas de los usuarios a nivel de oración y obtiene la intención clara por clasificación de intención. El NLU reconoce las entidades claves a nivel palabra para una pregunta y realiza el llenado de espacios. Para sistemas de diálogos multi-dominio, hay una tarea adicional antes de clasificar el `intent` y NER, que es clasificar el dominio.
 
-La clasificacion de dominio es usada para predecir el tópico (`topic`) sobre lo que los usuarios quieren hablar, por ejemplo:
+La clasificación de dominio es usada para predecir el tópico (`topic`) sobre lo que los usuarios quieren hablar, por ejemplo:
 > Play Michael jacksons billie jean (music domain)
 
 Esta clasificación es innecesaria para un sistema de dialogo de un solo dominio. **RASA está diseñado como un sistema de dialogo de un solo dominio** por lo que no incluye la funcionalidad de clasificar el dominio.
