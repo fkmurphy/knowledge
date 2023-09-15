@@ -6,16 +6,18 @@ Antes, quiero comentar que este artículo no fue revisado y son las notas (textu
 Hay partes pocas del libro que saltee porque creo que no es necesario para el objetivo que lo estoy leyendo, como por ejemplo Text to Speech (TTS), que no creo indispensable utilizarlo en el proyecto. Las notas están en orden según voy leyendo.
 
 Nuevamente pido disculpas y espero que sea útil como resumen en español.
-# Machine Learning
-## Etapas
+
+## Capitulo 1
+### Machine Learning
+#### Etapas
 - Training stage
 - Inference stage
 - Evaluation stage
-## Métricas
+#### Métricas
 Interesante [Matriz de confusión](../confusion-matrix.md)
 
 Falta ver mejor las métricas finales de Recall, precision, F1Score y accuracy.
-## Overfitting and underfitting
+#### Overfitting and underfitting
 El overfitting, cuando se utilizan muchos datos del set para entrenar y el modelo no puede generalizar. "Recuerda más de lo que aprende". A la hora de clasificar los datos de entrenamiento funciona bien, pero con datos nuevos no. El underfitting:
 - cuando el algoritmo es muy simple y no tiene el poder de capturar la complejidad de la info de entrenamiento
 - la arquitectura de red o funcionalidad usada no es la mejor para la tarea. Por ejemplo modelos bag-of-words(BoW) no son `suitables` para NLP taks.
@@ -25,22 +27,22 @@ El overfitting, cuando se utilizan muchos datos del set para entrenar y el model
 Además hay algunas cosas sobre overfitting y underfitting. Términos como los siguientes serían interesantes conocer más.
 >ML scientists have already developed various methods against overfitting, such as adding more **training data, regularization, dropout, and stopping early**.
 
-## TL - Qué pasa cuando la información que tenemos no es suficiente para entrenar?
+#### TL - Qué pasa cuando la información que tenemos no es suficiente para entrenar?
 
 Transfer learning (TL)
 Es un método donde el modelo puede usar conocimiento de otro modelo para otra tarea. Este termino es común en el dominio de chatbots por muchas razones:
 - TL Necesita menos info para entrenar: usualmente se requiere mucha info en los modelos ML tradicionales
 - TL hace un entrenamiento rápido: solo necesita pocas `epochs` de entrenamiento para hacer un fine-tuning para nuevas tareas. Generalmente es más rápido que usar el método de ML tradicional.
 
-# Procesamiento de lenguaje natural (NLP)
+### Procesamiento de lenguaje natural (NLP)
 Es un subcampo de la lingüística y ML. Se preocupa por la interacción de humano-maquina vía texto o habla.
 Parece que en un principio, antes del 2013, no había un método que prevalezca en NLP.
-## Cómo se representa la información textual al procesarla "computacionalmente"? 
+#### Cómo se representa la información textual al procesarla "computacionalmente"? 
 Las series en tiempo se puede representar como señales y ondas (voces). Las imagenes como pixeles en una posicion con un valor determinado. El tema es el texto. Uno de los metodos como one-hot encoding que representa cada palabra y frase, usa BoW (bag of words) representa oraciones y parrafos, pero era obvio que no era el camino. Despue de aplicar one-hot encoding, la dimension de cada vector será el tamaño del vocabulario entero (jeje el cine 4d se queda corto). Todos los valores son 0, excepto un 1 que representa la posicion de la palabra. Cada vector desperdicia espacio y no indica el significado semantico de la palabra en si misma. Osea, cada par de dos palabras, son ortogonales entre si.
 
 El modelo BoW, cuenta las apariciones de la palabra en el texto e ignora la dependencia y orden entre las palabras del contexto
 
-## Cómo construir modelos para texto?
+#### Cómo construir modelos para texto?
 Los métodos tradicionales dependen fuertemente de funciones diseñadas manualmente:
 - TF-IDF (Tema frequency-inverse document frequency), representa la importacia de una palabra respecto a su frecuencia tanto en un articulo como en todo un grupo de articulos.
 
@@ -71,18 +73,18 @@ Esta invención convirtió a `one-hot encodig` a vectores que son densos, mister
 
 Luego, con la investigación, se descubrieron deficiencias: la misma palabra podría significar varias cosas dependiendo el contexto como `bank`: `riverbak` y `financial bank`. Esto porque el vector de representación de `word2vec` es estático independientemente del contexto. Entonces: Por qué no hacer un vector que represente la palabra en un contexto? Los primeros modelos se lo conoce como Embeddings from language models (`ELMo`). Estos no tienen una inscrustación fija para cada palabra, pero mira el contexto de la oración antes de asignar la inscrustación a cada palabra. Usando un bidireccional `long short-term memory (LSTM)`. El LSTM es un `recurrent neural network RNN` especial que puede aprender de "long-term dependencies" (osea, en un gran contexto o con información relevante y el punto donde es necesario). Esto funciona bien en varios problemas y es core de los NLP basados en deep learning.
 
-## Transformers
+#### Transformers
 Los santos y benditos transformers (all you need is attention), fueron lanzados en 201, y consiguieron increibles resultados en tareas de traductores. No usan `LSTM` pero usan mucho de mecanismos de atención. este mecanismo es una función que mapea a una query y setea un par key-value a una salida. La salida es computada como una suma ponderada (weighted sum) de los valores, donde el peso de cada valor se calcula mediante una función de la consulta y la clave correspondiente del valor. Algunos investigadores NLP piensan que estos mecanismos son la mejor alternativa a LSTM, porque funcionan mejor en dependencias a largo termino (esto de grandes contextos informativos).
 
 Transformer adoptan una estructura `encoder-decode` in la arquitectura. Son muy similares pero no cumplen la misma función. El encoder está compuesto por una pila de N capas identicas `encoder layers`. El decoder tambien esta compuesto por N capas identicas `identical decoder layers`. Ambas capas están usando el mecanismo de atención, como nucleo del componente.
 
 El gran suceso fue que los investigadores lograron excelentes modelos basados en Transformer. Los mas famosos `GPT` y `BERT`. 
-#### GPT 
+###### GPT 
 El primero (GPT) esta compuesto enteramente de capas decoders. **El objetivo es producir un texto parecido al humano**. Fue desarrollado 3 versiones (GPT1,2,3). La calidad de GPT-3 es alta.
-#### Bert
+###### Bert
 **El objetivo de bert es proveer una mejor representación para ayudar a que una amplia gama de tareas posteriores (sentence-pair classification taks, single-sentence classification task, QA task, single-sentence tagging task) logren mejores resultados**. BERT derivó en tres familias, las mas conocidas son XLNet, RoBERTa, ALBERT, ELECTRA, ERNIE, BERT-WWM, and DistilBERT.
 
-## Tareas basicas de NLP
+#### Tareas basicas de NLP
 Los `embeddings representations` de las palabras, frases y oraciones reducen la dura carga de trabajo en diseñar funcionalidades.
 
 Si se consideran los textos como secuencias y diferentes tipos de etiquetas como categorias, entonces las tareas basicas de NLP pueden categorizarse en los siguientes grupos con respecto a las IO Data structures:
@@ -94,16 +96,16 @@ Si se consideran los textos como secuencias y diferentes tipos de etiquetas como
 **En la construcción de chatbots**, `intention-recognition task` es una `zsequence-to-category task` mientras ER es un `synchronus seq2seq task`. Automatic speech recognition `ASR` puede ser generalmente considerado como synchronous sequence (voice signals) a sequence (text). Al igual que `Text to speech (TTS)`, pero desde text-to-voice signals. 
 Dialogue managment (DM) es generalmente considerado como un asynchronous sesquece (conversation history) a la categoria `category` (next action) task.
 
-# Chatbot basics
+### Chatbot basics
 Hay dos tipos principales:
 - task oriented: finalizar tareas especificas al interaccionar con gente, ex. reservar un vuelo para alguien
 - chitchat bot: son más humanos, como si fuera chatear entre personas.
 
 >Los chatbot son un diamente en la corona para NLP. Es un reto, y tipicamente no encontramos que se usen los mismos patrones a usar en todas partes, desde ambas perspectivas tecnologia y negocios. Los chitchat chatbots son también muy importantes e interesantes pero no serán abordados en este libro.
 
-## Is a chatbot really necessary? (business domain) Página 16
+#### Is a chatbot really necessary? (business domain) Página 16
 
-## Introduction to chatbot architecture
+#### Introduction to chatbot architecture
 Al principio los chatbots estaban basados en plantillas y reglas, un ejemplo es AIML (AI Markup Language), que extrae información por reglas desde las preguntas de los usuarios y puede correr scripts para obtener información mediante una API para enriquecer las respuestas. Estos chatbot son llamados Artificial Linguistic Internet Computer Entity(Alicebot) y contienen 40.000 tipos de datos diferentes, que construyen una gran base de conocimiento basada en reglas. Esto tiene sus desventajas porque se suele hacer difícil encontrar la respuestas para las preguntas.
 
 Recientemente, el proceso principal para construir chatbots está unificado. Consiste en 5 módulos diferentes:
@@ -115,9 +117,9 @@ Recientemente, el proceso principal para construir chatbots está unificado. Con
 
 El libro se centra en NLU y DM principalmente.
 
-## ASR (ver hoja 18)
+#### ASR (ver hoja 18)
 
-## NLU Natural Language understanding (hoja 19)
+#### NLU Natural Language understanding (hoja 19)
 Interpreta la entrada del usuario basada en texto. Reconoce el `intento` y las entidades relevantes de lo que introdujo el usuario. El modulo NLU principalmente clasifica las preguntas de los usuarios a nivel de oración y obtiene la intención clara por clasificación de intención. El NLU reconoce las entidades claves a nivel palabra para una pregunta y realiza el llenado de espacios. Para sistemas de diálogos multi-dominio, hay una tarea adicional antes de clasificar el `intent` y NER, que es clasificar el dominio.
 
 La clasificación de dominio es usada para predecir el tópico (`topic`) sobre lo que los usuarios quieren hablar, por ejemplo:
@@ -169,11 +171,11 @@ A primera vista parece similar a información basada en reglas AIML. De hecho, e
 
 El input del usuario debera pasar por el preprocesamiento NLP, cada oracion es dividida, tokenizada y etiquetada (`POS labeling`), etc. Para algunas aplicaciones es importante hacer **coreference** para reemplazar pronombres originales con nombres completos para reducir la ambiguedad.
 
-Necesitamos diseñar la funcionalidad y el entrenamiento del modelo. Se puede hacer manualmente `number_of_Tokens, symbols_in_between, bag_of_words_in_Between`. Luego se hace la clasificación de algoritmos de ML, como la clasificación linear o support vector machines (SVMs) para hacer `intent classification` y el etiquetado de  modelos como hidden markov model (HMM) y CRF para hacer `ER`. De otra manera, podemos usar word2vec para hacer UL sobre un gran corpus, para embeber caracteristicas ocultas de palabras dentro de `word embeddings` e ingresarlas dentro de modelos `DNN` como las `convolutional neural networks`(CNN) o RNNs para hacer `intent classification` y `ER`.
+Necesitamos diseñar la funcionalidad y el entrenamiento del modelo. Se puede hacer manualmente `number_of_Tokens, symbols_in_between, bag_of_words_in_Between`. Luego se hace la clasificación de algoritmos de ML, como la clasificación linear o support vector machines (SVMs) para hacer `intent classification` y el etiquetado de  modelos como [hidden markov model (HMM)](https://es.wikipedia.org/wiki/Modelo_oculto_de_M%C3%A1rkov) y CRF para hacer `ER`. De otra manera, podemos usar word2vec para hacer UL sobre un gran corpus, para embeber caracteristicas ocultas de palabras dentro de `word embeddings` e ingresarlas dentro de modelos `DNN` como las `convolutional neural networks`(CNN) o RNNs para hacer `intent classification` y `ER`.
 
 Para el entrenamiento, podemos lograr una mayor recuperación para que el sistema cubra mas tipos de diferentes entradas de usuario. Tambien hacer uso de un modulo basado en reglas, que ayudara a entrenar mejor el modelo.
 
-## DM Dialogue managment
+#### DM Dialogue managment
 DM decide cual es la acción actual de un usuario acorde a la conversacion previa. La tarea principal es coordinar y manejar el flujo de toda (whole) la conversacion. Analizando y manteniendo el contexto, decide si el `intent` del user es suficientemente claro y la información en la entidad es lo suficientemente buena para consultar las bases de datos o elegir la mejor accion.
 
 Si decide que la info no es completa o es ambigua, comenzara a manejar un contexto de conversación de multiples turnos manteniendo lo que escribe el usuario para obtener mas información o proveer al usuario posibles items a elegir. 
@@ -184,7 +186,7 @@ Cuando finalmente decide que tiene toda la información que necesita, DM convier
 
 En la practica, DM es responsable de muchas pequeñas tareas y es altamente personalizable acorde a los requerimientos del producto. Muchas implementaciones de DM usan un sistema basado en reglas y esto no es una tarea facil para desarrollar o mantener. En trabajos recientes **incluyendo RASA**, la gente comenzo el modelado del estado de DM en tareas de etiquetado secuencial SL (`sequential labeling`). Algunos avances usan `deep RL`, donde un modulo de simulacion de usuario es agregado. 
 
-## NLG o Natural Language Generation
+#### NLG o Natural Language Generation
 NLG convierte la respuesta de los agentes  en un texto humanamente legible. Hay dos caminos principalmente para hacer esto: 
 - template-based methods: crea una respuesta simple sin mucha flexibilidad, sin embargo son diseñados por humanos y por ello son generalmente buenos para leerse por humanos
 - DL-based methods: son flexibles generando y personalizando respuestas pero como es automaticamente generado por DNNs es dificil controlar la calidad y estabilidad de los resultados.
@@ -197,16 +199,16 @@ En el mientras se usan modulos NLG que usan plantillas basadas en reglas. es com
 
 También hay trabajos que intentan usar `DL` para entrenar un chatbot E2E (end to end) orientado a la tarea(? task-oriented). Algunos investigadores convierten cada modulo NLU, DM y NLG en modulos DL. Otras partes de la investigacion trabajan con "memory networks" que es similar a seq2seq y codifica (encodes) la base de conocimiento completa en una DNN complicada y que combina estas con preguntas codificadas para descodificar una respuesta objetivo. Este trabajo  se aplicó a tareas de maquinas lectoras como Stanford Question Answering Dataset (SQuAD) y obtuvo algunos buenos resultados.
 
-## TTS text to speech pagina 25
+#### TTS text to speech pagina 25
 
-# Rasa Framework finalmente 
+### Rasa Framework finalmente 
 The Rasa framework consists of mainly four parts, outlined as follows:
 - NLU: Extract user's intent and key context information
 - Core: Choose the best response and action according to dialogue history
 - Channel and action: Connect chatbot to users and backend services
 - Helper functions such as Tracker Store, Lock Store, and Event Broker
 ![](https://rasa.com/docs/rasa/img/architecture.png)
-## Arquitectura
+#### Arquitectura
 Rasa contiene 2 partes principales:
 - Rasa: que tambien posee NLU y Core.
 - Rasa SDK
@@ -229,3 +231,120 @@ La arquitectura de Rasa sigue cuidadosamente la teoria de la Ley de Conway's:
 Finalmente, Rasa Core y Rasa NLU trabajan juntos dentro de un paquete llamado **Rasa**.
 
 El SDK es otro paquete aparte y la razon detras de este diseño es que el NLU y el Core son normalmente desarrollados por el equipo de algoritmos, mientras los `Customized actions` son desarrollados por el equipo de ingeneria de python.
+
+## Capitulo 2 (NLU en Rasa)
+
+### Introducción
+Como se mencionó anteriormente, Rasa NLU funciona en el mismo paquete de Rasa Core. Este es responsable de reconocer el intento (`intent`) y extraer la entidad (`entity`). Por ejemplo, si el usuario introduce "Cómo va a estar el clima mañana en New York?", Rasa NLU necesita extraer el `intent: asking for weather` y las entidades como la fecha `mañana(tomorrow)` y la `lugar(location) New York`.
+
+Este modulo usa algoritmos de aprendizaje supervisado para completar esta función. Una cantidad adecuada de ejemplos incluyendo el intento y las entidades son necesarias para entrenar el modelo NLU. El Rasa NLU tiene una arquitectura de software flexible y soporta varios algoritmos. Estos algoritmos son llamados `components`. Los componentes también requieren ser configurados y mantenidos cuidadosamente. El NLU usa pipelines como un sistema de configuración de componentes para lograr todo esto.
+
+Los elementos principales (core) de Rasa NLU:
+- El formato de NLU training data
+- Los componentes
+- Configurar Rasa NLU via pipeline
+- La salida de Rasa NLU
+- Entrenando y disponibilizando Rasa NLU
+- Practica (construir el NLU de un bot médico)
+### Requerimientos técnicos
+El capítulo va a utilizar la carpeta `ch02` del [repositorio de Github](https://github.com/PacktPublishing/Conversational-AI-with-RASA.)
+
+### Formato de los datos de entrenamiento para NLU
+El archivo `nlu.yml` que está ubicado dentro de la carpeta `data/`, actúa como los datos de entrenamiento para Rasa NLU. Como se ve en la extensión está escrito en formato YAML. Un ejemplo de este archivo es:
+```yaml
+version: "2.0"
+nlu:
+  - intent: intent_name_one
+	examples: |
+	  - This is a sentence that acts as a training example.
+	  - hello
+	  - hi
+  - intent: intent_name_two
+	examples: |
+	  - This is just another training sample.
+	  - good night
+	  - bye
+  - intent: intent_name_N
+	examples: |
+	  - yes
+	  - indeed
+	  - of course
+```
+
+En la lista dentro de la clave `nlu`, cada elemento es un diccionario y las funcionalidades de los diferentes diccionarios es definida por una clave específica. Esta clave específica puede ser `intent`, `synonym`, `regex` y `lookup`. La clave `intent` es obligatoria, las otras 3 son opcionales.
+
+### El campo `intent`
+Usar la clave(`key`) `intent` en NLU se usa para almacenar los ejemplos de entrenamiento. El valor de dicha `key` es el nombre del intento. Para el nombre del intento puede ser utilizado cualquier caracter (incluyendo unicode), sin embargo, no puede utilizarse la `/` porque Rasa lo reserva para un significado especial (tratado en capitulo 5). 
+
+En el ejemplo de entrenamiento se encuentra la lista `examples`, que contiene los ejemplos de entrenamiento. Un ejemplo puede contener las entidades indicadas como una URL de Markdown `[entity value](entity type)`. Por ejemplo `What's the weather like [tomorrow](date) in [New york](city)`, donde tomorrow es el `entity value` y su tipo es `date`, así como `New York` es el `entity value` y su tipo es `city`.
+
+Rasa agrega sintaxis para valores más complejos, por ejemplo: `[entity value]{"key": "value", ...}` se puede utilizar un diccionario JSON. En su equivalencia más básica (comparado con `[entity value](entity type)`) puede ser `[entity value]{"entity": "entity type"}`. Otras claves válidas para este formato son:
+- `rule`, `group`: que corresponden a etiquetas en roles y grupos de las entidades 
+- `value`: usado para etiquetar el sinónimo de un valor de entidad
+
+Por ejemplo `What's the weather like [tomorrow]{"entity": "date"} in [New York]{"entity": "city", "value": "New York City"} ?`
+
+### El campo sinónimo `synonym`
+Simple, es la forma de guardar información para relacionar cosas como `bike` es sinónimo de `bicycle`. Se utiliza durante el paso de inferencia (`inference step`) cuando el componente `EntitySynonymMapper` es activado, reemplazando el valor de la entidad por una palabra _estándar_. Por ejemplo:
+```yaml
+nlu:
+	- synonym: bike
+	  examples: |
+		- bicycle
+		- mountain bike
+		- road bike
+		- folding bike
+```
+
+En este caso, todos los valores del ejemplo son reemplazados por `bike`. Esto cambiará el valor sin modificar el tipo de la entidad.
+
+Importante: la estandarización mediante los sinónimos se lleva a cabo **luego** de reconocer las entidades mediante el NLU. Sólo ayuda a los siguientes componentes.
+
+### El campo `lookup`
+El campo `lookup` indica que el objeto es para almacenar en tablas de búsqueda. Si se le puede dar funcionalidades extras al usuario, esto mejorará el reconocimiento del `intent` y de la extracción de `entity`. Una forma de proveer de funcionalidades extras es dar un diccionario de palabras clave. Por ejemplo:
+```yaml
+nlu:
+	- lookup: city
+	  examples: |
+	    - New York
+	    - Chicago
+	    - San Francisco
+	    - Huston
+```
+
+Cuando alguno de estos datos coinciden con el texto, la `lookup table` será cambiada al valor 1 en la posición correspondiente a la coincidencia (`match`) y 0 en las que no coincida (`unmatch`). Un ejemplo visual podría ser:
+
+|text|Book| a | flight| from| New| York| to| San| Francisco|
+|----|----|--|-----|----|----|----|----|---|----------------|
+|feature #1||||||||||
+|feature `#n`||||||||||
+|lookup tab. feature (list of cities)| 0 | 0 |0 |0 | 1 | 1| 0| 1| 1|
+
+Con el uso de estas tablas, el modelo tendrá más conocimiento para predecir. Es decir, el modelo pondrá más foco sobre las palabras y oraciones marcadas por estas `lookups features`. Además, si alguna ciudad no es reconocida durante la inferencia (`inference step`), podrá ser extraída correctamente con la ayuda de las `lookup features`.
+
+### Campos `regex`
+Las expresiones regulares (`regex`) son usadas para hacer match con determinados patrones y ayudar a la extracción de `entity` o reconocimiento de `intents`. Rasa usa regex de `python`. Un ejemplo puede ser el siguiente:
+```yaml
+nlu:
+	- regex: help
+	  examples: |
+	    - \bhelp\b
+```
+
+Esto puede servir para reconocer teléfonos, direcciones IP, matrículas, entre otros, que pueden ser muy difíciles de conseguir mediante `lookup`.
+
+Se puede representar cómo trabajan las expresiones regulares en Rasa de la siguiente manera:
+
+|text|The| post | code| of | my | office | is | 94043 |
+|----|----|--|-----|----|----|----|----|---|
+|feature #1|||||||||
+|feature `#n`|||||||||
+|regex (zip code)| 0 | 0 |0 |0 | 0 | 0| 0| 1|
+
+Claramente en este caso, es muy difícil para un NER (named entity recognition) extraer correctamente el zip-code. Con una regex tan simple como `\d{5}` (un codigo de 5 digitos) se puede determinar si es un zipcode (1) o no (0).
+
+### Usando `regex` y `lookup`
+En los siguientes dos puntos que se mencionan en el libro se intenta aclarar que el uso de `lookup` y `regex` no es mágico y que puede ser muy útil para ayudar a extraer entidades, sin embargo conlleva una gran responsabilidad. Normalmente existen dos formas de usar estos campos en Rasa:
+- como parte de las funcionalidades del comoponente de extracción de entidades (`entity`): es importante saber que las funciones que se brindan son solo para recomendarle al modelo que, por ejemplo, puede haber un número de teléfono. Sin embargo, también podría ser el número de seguridad personal de alguien. Es por ello que el modelo tiene que verificar el contexto para decidir si aceptar la recomendación o no. Dicho de otra forma, aún es necesario tener `intents` y `entities`.
+  Además, para que el modelo pueda aprender la correlación entre los `lookup|regex` y la predicción, se debe estar seguro en los datos de entrenamiento existan los patrones indicados en `lookup|regex`. También deben asegurarse de la calidad de las `lookup|regex`, reduciendo ruido o errores, de otra manera podría disminuir el rendimiento.
+- Como un componente de extracción de entidades: el componente `RegexEntityExtractor` puede extraer entidades con `lookup|regex`. Esto es totalmente basado en reglas pero puede ser muy efeciente en algunos casos de uso.
