@@ -65,6 +65,42 @@ nlu:
 
 Estas dos entidades `credit card account` y `credit account` podrán ser traducidas a un valor normalizado `credit`.
 
+##### Campo Lookup
+Cuando hay que extraer entidades existen varias bibliotecas que pueden ayudar, sin embargo, si las entidades exceden el entrenamiento de los modelos usados es posible que no obtenga buenos resultados. Las tablas de búsqueda o lookups se agregan a los datos de entrenamiento de forma que sea posible añadir todos los valores **conocidos** para una entidad.
+
+Las tablas de búsqueda no marcan directamente la entidad sino que marcan tokens en los datos de entrenamiento añadiendo una funcionalidad nueva para el extractor de entidades (`ner_crf`). En otras palabras, el modelo pondrá más foco sobre las palabras y oraciones marcadas en la `lookup feature`, incluso si no es reconocida durante la inferencia, podrá ser extraída con ayuda de las lookup.
+
+Es importante que los valores del lookup sean bien definidos y delimitados. Además, podría suceder que una misma palabra coincida en dos tipos de entidades diferentes y en este caso no sería bueno utilizarlas. Se ha comprobado que las tablas que posean más de un millón de elementos suelen tardar desde minutos a horas en terminar de entrenarse y evaluarse.
+
+Un ejemplo de lookup podría ser:
+```
+nlu:
+	- lookup: employee_name
+	  examples: |
+	    - Raul
+	    - Mariano
+	    - Camila
+```
+
+Puede leer más sobre cuándo utilizar un lookup en este [enlace](https://rasa.com/blog/improving-entity-extraction/).
+
+##### Campo regex
+Se pueden usar expresiones regulares para hacer match con determinados patrones y así ayudar a la extracción de entidades (`entity`) o reconocimiento de `intent`. En Rasa se utilizan regex de python. Por ejemplo:
+
+```
+nlu:
+	- regex: zipcode
+	  examples: |
+	    - \d{5}
+```
+
+En este ejemplo vemos que podemos determinar que el código postal será de 5 dígitos.
+
+Con esta herramienta es posible determinar teléfonos, direcciones de IP, matrículas, entre otros, que pueden ser muy difíciles de conseguir mediante lookup.
+
+Un detalle importante es que tanto las `regex` como los `lookup` se pueden usar de dos maneras:
+1. utilizando `RegexFeaturizer` que agrega una funcionalidad a la tabla y ayuda al contexto para decidir si lo marcado por la expresión regular es lo que se buscaba. Por ejemplo, si se ingresa un número de 5 dígitos y no se refería a el código postal, sería un error. 
+2. Otra forma de utilizarlo es a través de `RegexEntityExtractor` que está basado en reglas pero puede ser muy eficiente para algunos casos de uso.
 ## Rasa SDK
 Este paquete permite crear acciones personalizadas como por ejemplo llamar a servicios externos para realizar tareas (por ejemplo llamar a una api que provee el clima o los precios de las criptomonedas principales). Estas acciones personalizadas se ejecutan en un proceso individual y a su módulo se lo llama `Action server`. Dicho módulo se comunica directamente con Rasa Core mediante HTTP. 
 
