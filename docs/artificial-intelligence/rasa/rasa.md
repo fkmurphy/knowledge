@@ -66,10 +66,15 @@ nlu:
 Estas dos entidades `credit card account` y `credit account` podrán ser traducidas a un valor normalizado `credit`.
 
 ## Rasa SDK
-Este paquete permite personalizar acciones, llamar a servicios externos para realizar tareas (por ejemplo llamar a una api que provee el clima o los precios de las criptomonedas principales). Estas acciones personalizadas se ejecutan en un proceso individual y a su módulo se lo llama `Action server`. Dicho módulo se comunica directamente con Rasa Core mediante HTTP. 
+Este paquete permite crear acciones personalizadas como por ejemplo llamar a servicios externos para realizar tareas (por ejemplo llamar a una api que provee el clima o los precios de las criptomonedas principales). Estas acciones personalizadas se ejecutan en un proceso individual y a su módulo se lo llama `Action server`. Dicho módulo se comunica directamente con Rasa Core mediante HTTP. 
 
 También soporta canales (Rasa channels) para soportar aplicaciones de mensajería instantánea (IM). El flujo de trabajo a grandes rasgos es:
 ```
 Action Server <--> Rasa Core <-- Rasa NLU
 						--> Client -->
+```
+
+Se puede instalar el paquete de Rasa SDK de la siguiente manera:
+```sh
+pip3 install rasa-sdk
 ```
