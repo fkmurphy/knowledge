@@ -11,16 +11,16 @@ Con la intención de crear un índice de conocimiento de lo que voy leyendo sobr
 
 # Contenido
 - Río Negro
-	- [Inundación 1899 - Viedma - Río Negro](./argentina/historico/viedma/inundacion-1899)
+	- [Inundación 1899 - Viedma - Río Negro](./argentina/historico/viedma/inundacion-1899/inundacion-1899.md)
 		- [Planos](./argentina/historico/viedma/inundacion-1899/planos-inundacion-1899.md)
 	- [Deuda Plan Castello](./argentina/rio-negro/deuda-castello.md)
 - Blockchain
-	- [Ethereum](tech/blockchain/ethereum)
-	- [Foundry](tech/blockchain/tools/foundry/foundry)
-	- [Tenderly](tech/blockchain/tools/tenderly/tenderly)
+	- [Ethereum](blockchain/ethereum/ethereum.md)
+	- [Foundry](blockchain/tools/foundry/foundry.md)
+	- [Tenderly](blockchain/tools/tenderly/tenderly.md)
 - ML
-	- [Chatbot Rasa Framework](tech/artificial-intelligence/rasa)
-	- [Herramientas de usuario final - Inteligencia Artificial](tech/artificial-intelligence/tools)
+	- [Chatbot Rasa Framework](artificial-intelligence/rasa/rasa.md)
+	- [Herramientas de usuario final - Inteligencia Artificial](artificial-intelligence/tools)
 - [Daily Agosto](./daily/2023/2023-Aug.md)
 - [Daily Septiembre](./daily/2023/2023-Sep.md)
 

@@ -8,7 +8,7 @@ Al momento de verificarlo tiene varias opciones, sin embargo, la opción de subi
 
 ![](https://imgur.com/Y9KU4c6.png)
 
-## [Foundry](../../foundry/foundry) - Obtener el JSON metadata del contrato
+## [Foundry](../foundry/foundry) - Obtener el JSON metadata del contrato
 Bueno, en foundry es bastante simple, con el siguiente comando:
 
 ```sh
