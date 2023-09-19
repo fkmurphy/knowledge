@@ -1,6 +1,8 @@
 ---
 title: DBT
 ---
+# DBT
+
 [DBT](https://getdbt.com) es una herramienta muy interesante para la transformación de datos, además puede ayudar a realizar al mismo tiempo la documentación del proceso de transformación. Tiene la posibilidad de contratarse como servicio pero también de crear tu propia instancia a través de [dbt-core](https://github.com/dbt-labs/dbt-core) que está escrito en python y posee una licencia Apache 2.0.
 
 Es muy fácil conectar a diferentes fuentes de datos a través de los [adaptadores](https://docs.getdbt.com/docs/supported-data-platforms) como:

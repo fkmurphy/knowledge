@@ -1,6 +1,7 @@
 ---
 title: Matriz de confusión
 ---
+# Matriz de confusión
 La matriz de confusión permite comparar las predicciones realizadas por un modelo contra las categorizaciones reales de los casos.
 
 Por qué utilizarlo?

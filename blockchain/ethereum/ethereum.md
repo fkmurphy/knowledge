@@ -1,7 +1,7 @@
 ---
 title: Introducción Ethereum
 ---
-
+# Ethereum
 ## Introducción
 Ethereum es una de las blockchains más populares. A mi criterio, que posee una de las comunidades más innovadoras y rápidas en implementar nuevas funcionalidades y soluciones.
 

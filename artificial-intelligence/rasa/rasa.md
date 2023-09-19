@@ -2,6 +2,8 @@
 title: Rasa - Chatbot
 tags: []
 ---
+# Rasa Framework - Chatbots
+
 Recomiendo el libro [Introduction to Chatbots and the Rasa Framework](https://www.amazon.com/dp/1801077053)  de [Xiaoquan Kong](https://github.com/howl-anderson) y Guan Wang.
 
 Rasa es un framework para crear chatbots usando NLP y Machine Learning, es muy flexible al momento de configurarse y tiene la capacidad de utilizar diferentes tipos de herramientas en su arquitectura. La decisión de utilizar pipeline para procesar la información hace que sea muy simple y claro de configurar. Para todos los archivos de configuración utiliza YAML, algo que desde mi punto de vista no es tan favorable.

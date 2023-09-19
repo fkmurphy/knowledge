@@ -1,6 +1,7 @@
 ---
 title: Foundry
 ---
+# Foundry
 [Foundry](https://book.getfoundry.sh/) es una herramienta para desarrollar smart contract utilizando Solidity. Este set de herramientas permite gestionar dependencias, realizar diferentes tipos de test, hacer debug, exportar reportes de gas, verificar contratos, realizar scripts para automatizar tareas, entre otros.
 
 La intención de este artículo, más allá de lo que ya está dicho, es dejar constancia de algunos pasos

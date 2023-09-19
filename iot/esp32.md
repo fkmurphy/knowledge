@@ -1,6 +1,7 @@
 ---
 title: ESP-32
 ---
+# ESP-32
 
 El ESP32 (o en mi caso ESP-wroom-32) es un dispositivo SoC que posee características muy superiores a un Arduino UNO o un ESP826. Dentro de estas características, cuenta con la capacidad de comunicarse vía Wifi y Bluetooth.
 Su bajo costo y las prestaciones hace que sea muy demandado.

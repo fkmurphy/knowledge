@@ -1,7 +1,7 @@
 ---
 title: Verificar un smart contract
 ---
-
+# Verificando un SC en Tenderly
 Al momento de probar un smart contract con [Tenderly](./tenderly) posiblemente quieras verificarlo para usar sus funciones y analizar su funcionamiento.
 
 Al momento de verificarlo tiene varias opciones, sin embargo, la opción de subir la carpeta del proyecto no me agrada. Una opción es usar [`JSON Upload`](https://docs.soliditylang.org/en/latest/metadata.html).

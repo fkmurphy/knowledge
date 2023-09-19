@@ -6,11 +6,9 @@ title: Introducción
 # [Knowledge](https://wiki.julianmurphy.ar)
 
 Con la intención de crear un índice de conocimiento de lo que voy leyendo sobre diversos temas, creo este espacio.
-# Contenido
-- Río Negro
-	- [Inundación 1899 - Viedma - Río Negro](./argentina/historico/viedma/inundacion-1899/inundacion-1899.md)
-		- [Planos](./argentina/historico/viedma/inundacion-1899/planos-inundacion-1899.md)
-	- [Deuda Plan Castello](./argentina/rio-negro/deuda-castello.md)
+
+## Contenido
+- [Río Negro](./rio-negro/rio-negro.md)
 - Blockchain
 	- [Ethereum](blockchain/ethereum/ethereum.md)
 	- [Foundry](blockchain/tools/foundry/foundry.md)

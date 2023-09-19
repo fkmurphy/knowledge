@@ -1,6 +1,7 @@
 ---
 title: Deuda Plan Castello
 ---
+# Deuda Plan Castello
 
 Hace tiempo me pregunto cuál será la deuda acumulada de la provincia de Río Negro. La idea principal es construir un histórico de la deuda RND25 de **300 millones de dólares**, tomada para realizar el Plan [Castello](https://es.wikipedia.org/wiki/Edgardo_Castello). También cómo se reestructuró para poder pagarla luego de entrar en default técnico.
 

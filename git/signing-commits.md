@@ -1,6 +1,7 @@
 ---
 title: Firmando commits
 ---
+# Firmando commits en git
 
 Para poder firmar los commits que realizamos y aumentar la seguridad al momento de realizar cambios en un repositorio, podemos utilizar una clave GPG.
 

@@ -1,6 +1,7 @@
 ---
 title: Inteligencia Artificial
 ---
+# Inteligencia artificial
 ## Artículos interesantes
 - [Sent2Vec - An unsupervised approach towards learning sentence embeddings](https://sunjackson.github.io/2018/06/19/a3f95a167b4a350a82cb523478e89b16/#:~:text=Sent2Vec%20presents%20a%20simple%20but,train%20distributed%20representations%20of%20sentences.&amp;text=This%20model%20is%20furthermore%20augmented,embeddings%20along%20with%20the%20words)
 - [Word2vec](https://jalammar.github.io/illustrated-word2vec/)

@@ -1,6 +1,7 @@
 ---
 title: Rust
 ---
+# Rust language
 ## Documentación
 - [Libro oficial en linea](https://doc.rust-lang.org/book/)
 - [Libro interactivo -  Brown.edu](https://rust-book.cs.brown.edu/)
