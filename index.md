@@ -6,9 +6,6 @@ title: Introducción
 # [Knowledge](https://wiki.julianmurphy.ar)
 
 Con la intención de crear un índice de conocimiento de lo que voy leyendo sobre diversos temas, creo este espacio.
-
-[[toc]]
-
 # Contenido
 - Río Negro
 	- [Inundación 1899 - Viedma - Río Negro](./argentina/historico/viedma/inundacion-1899/inundacion-1899.md)
