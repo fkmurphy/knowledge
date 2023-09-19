@@ -1,0 +1,26 @@
+{
+  "unversionedId": "git/signing-commits",
+  "id": "git/signing-commits",
+  "title": "Firmando commits",
+  "description": "Para poder firmar los commits que realizamos y aumentar la seguridad al momento de realizar cambios en un repositorio, podemos utilizar una clave GPG.",
+  "source": "@site/docs/git/signing-commits.md",
+  "sourceDirName": "git",
+  "slug": "/git/signing-commits",
+  "permalink": "/git/signing-commits",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/git/signing-commits.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Firmando commits"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ESP-32",
+    "permalink": "/iot/esp32"
+  },
+  "next": {
+    "title": "Inundación del 1899 - El Juncal",
+    "permalink": "/argentina/historico/viedma/inundacion-1899/"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "argentina/historico/viedma/inundacion-1899/inundacion-1899",
+  "id": "argentina/historico/viedma/inundacion-1899/inundacion-1899",
+  "title": "Inundación del 1899 - El Juncal",
+  "description": "Sobre el libro",
+  "source": "@site/docs/argentina/historico/viedma/inundacion-1899/inundacion-1899.md",
+  "sourceDirName": "argentina/historico/viedma/inundacion-1899",
+  "slug": "/argentina/historico/viedma/inundacion-1899/",
+  "permalink": "/argentina/historico/viedma/inundacion-1899/",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/argentina/historico/viedma/inundacion-1899/inundacion-1899.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Inundación del 1899 - El Juncal"
+  },
+  "sidebar": "sidebar",
+  "next": {
+    "title": "Planos - Inundación 1899",
+    "permalink": "/argentina/historico/viedma/inundacion-1899/planos-inundacion-1899"
+  }
+}

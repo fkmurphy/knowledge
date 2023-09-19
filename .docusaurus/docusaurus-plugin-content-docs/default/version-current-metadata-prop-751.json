@@ -1,0 +1,387 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "sidebar": [
+      {
+        "type": "category",
+        "label": "argentina",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "historico",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "viedma",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Inundación del 1899 - El Juncal",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Planos - Inundación 1899",
+                        "href": "/argentina/historico/viedma/inundacion-1899/planos-inundacion-1899",
+                        "docId": "argentina/historico/viedma/inundacion-1899/planos-inundacion-1899"
+                      }
+                    ],
+                    "href": "/argentina/historico/viedma/inundacion-1899/"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "rio-negro",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Deuda Plan Castello",
+                "href": "/argentina/rio-negro/deuda-castello",
+                "docId": "argentina/rio-negro/deuda-castello"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "daily",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "2023",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "2023-Aug",
+                "href": "/daily/2023/Aug",
+                "docId": "daily/2023/Aug"
+              },
+              {
+                "type": "link",
+                "label": "2023-Sep",
+                "href": "/daily/2023/Sep",
+                "docId": "daily/2023/Sep"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Introducción",
+        "href": "/",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "tech",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Inteligencia Artificial",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Matriz de confusión",
+                "href": "/tech/artificial-intelligence/confusion-matrix",
+                "docId": "tech/artificial-intelligence/confusion-matrix"
+              },
+              {
+                "type": "link",
+                "label": "Rasa - Chatbot",
+                "href": "/tech/artificial-intelligence/rasa/",
+                "docId": "tech/artificial-intelligence/rasa/rasa"
+              },
+              {
+                "type": "link",
+                "label": "Herramientas - Inteligencia artificial",
+                "href": "/tech/artificial-intelligence/tools",
+                "docId": "tech/artificial-intelligence/tools"
+              }
+            ],
+            "href": "/tech/artificial-intelligence/"
+          },
+          {
+            "type": "category",
+            "label": "blockchain",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Introducción Ethereum",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "standard",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "ERC-721",
+                        "href": "/tech/blockchain/ethereum/standard/erc-721",
+                        "docId": "tech/blockchain/ethereum/standard/erc-721"
+                      }
+                    ]
+                  }
+                ],
+                "href": "/tech/blockchain/ethereum/"
+              },
+              {
+                "type": "category",
+                "label": "tools",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Foundry",
+                    "href": "/tech/blockchain/tools/foundry/",
+                    "docId": "tech/blockchain/tools/foundry/foundry"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Tenderly",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Verificar un smart contract",
+                        "href": "/tech/blockchain/tools/tenderly/verificar-smart-contract",
+                        "docId": "tech/blockchain/tools/tenderly/verificar-smart-contract"
+                      }
+                    ],
+                    "href": "/tech/blockchain/tools/tenderly/"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Ciencia de datos",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "DBT",
+                "href": "/tech/data-science/dbt",
+                "docId": "tech/data-science/dbt"
+              }
+            ],
+            "href": "/tech/data-science/"
+          },
+          {
+            "type": "category",
+            "label": "git",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Firmando commits",
+                "href": "/tech/git/signing-commits",
+                "docId": "tech/git/signing-commits"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "iot",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "ESP-32",
+                "href": "/tech/iot/esp32",
+                "docId": "tech/iot/esp32"
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "label": "Rust",
+            "href": "/tech/rust/",
+            "docId": "tech/rust/rust"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "templates",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "{{date:YYYY-MMM}}",
+            "href": "/templates/daily-notes",
+            "docId": "templates/daily-notes"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "argentina/historico/viedma/inundacion-1899/inundacion-1899": {
+      "id": "argentina/historico/viedma/inundacion-1899/inundacion-1899",
+      "title": "Inundación del 1899 - El Juncal",
+      "description": "Sobre el libro",
+      "sidebar": "sidebar"
+    },
+    "argentina/historico/viedma/inundacion-1899/planos-inundacion-1899": {
+      "id": "argentina/historico/viedma/inundacion-1899/planos-inundacion-1899",
+      "title": "Planos - Inundación 1899",
+      "description": "Planos que pertenecen al libro mencionado anteriormente",
+      "sidebar": "sidebar"
+    },
+    "argentina/rio-negro/deuda-castello": {
+      "id": "argentina/rio-negro/deuda-castello",
+      "title": "Deuda Plan Castello",
+      "description": "Hace tiempo me pregunto cuál será la deuda acumulada de la provincia de Río Negro. La idea principal es construir un histórico de la deuda RND25 de 300 millones de dólares, tomada para realizar el Plan Castello. También cómo se reestructuró para poder pagarla luego de entrar en default técnico.",
+      "sidebar": "sidebar"
+    },
+    "daily/2023/Aug": {
+      "id": "daily/2023/Aug",
+      "title": "2023-Aug",
+      "description": "24",
+      "sidebar": "sidebar"
+    },
+    "daily/2023/Sep": {
+      "id": "daily/2023/Sep",
+      "title": "2023-Sep",
+      "description": "05",
+      "sidebar": "sidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Introducción",
+      "description": "Con la intención de crear un índice de conocimiento de lo que voy leyendo sobre diversos temas, creo este espacio.",
+      "sidebar": "sidebar"
+    },
+    "tech/artificial-intelligence/artificial-intelligence": {
+      "id": "tech/artificial-intelligence/artificial-intelligence",
+      "title": "Inteligencia Artificial",
+      "description": "Artículos interesantes",
+      "sidebar": "sidebar"
+    },
+    "tech/artificial-intelligence/confusion-matrix": {
+      "id": "tech/artificial-intelligence/confusion-matrix",
+      "title": "Matriz de confusión",
+      "description": "La matriz de confusión permite comparar las predicciones realizadas por un modelo contra las categorizaciones reales de los casos.",
+      "sidebar": "sidebar"
+    },
+    "tech/artificial-intelligence/rasa/rasa": {
+      "id": "tech/artificial-intelligence/rasa/rasa",
+      "title": "Rasa - Chatbot",
+      "description": "Recomiendo el libro Introduction to Chatbots and the Rasa Framework  de Xiaoquan Kong y Guan Wang.",
+      "sidebar": "sidebar"
+    },
+    "tech/artificial-intelligence/tools": {
+      "id": "tech/artificial-intelligence/tools",
+      "title": "Herramientas - Inteligencia artificial",
+      "description": "Herramientas de usuario final",
+      "sidebar": "sidebar"
+    },
+    "tech/blockchain/ethereum/ethereum": {
+      "id": "tech/blockchain/ethereum/ethereum",
+      "title": "Introducción Ethereum",
+      "description": "Introducción",
+      "sidebar": "sidebar"
+    },
+    "tech/blockchain/ethereum/standard/erc-721": {
+      "id": "tech/blockchain/ethereum/standard/erc-721",
+      "title": "ERC-721",
+      "description": "Tokens no fungibles",
+      "sidebar": "sidebar"
+    },
+    "tech/blockchain/tools/foundry/foundry": {
+      "id": "tech/blockchain/tools/foundry/foundry",
+      "title": "Foundry",
+      "description": "Foundry es una herramienta para desarrollar smart contract utilizando Solidity. Este set de herramientas permite gestionar dependencias, realizar diferentes tipos de test, hacer debug, exportar reportes de gas, verificar contratos, realizar scripts para automatizar tareas, entre otros.",
+      "sidebar": "sidebar"
+    },
+    "tech/blockchain/tools/tenderly/tenderly": {
+      "id": "tech/blockchain/tools/tenderly/tenderly",
+      "title": "Tenderly",
+      "description": "Como herramienta de desarrollo y análisis para blockchain, es una excelente opción. Como herramienta paga, queda a tu criterio jaja.",
+      "sidebar": "sidebar"
+    },
+    "tech/blockchain/tools/tenderly/verificar-smart-contract": {
+      "id": "tech/blockchain/tools/tenderly/verificar-smart-contract",
+      "title": "Verificar un smart contract",
+      "description": "Al momento de probar un smart contract con Tenderly posiblemente quieras verificarlo para usar sus funciones y analizar su funcionamiento.",
+      "sidebar": "sidebar"
+    },
+    "tech/data-science/data-science": {
+      "id": "tech/data-science/data-science",
+      "title": "Ciencia de datos",
+      "description": "Links",
+      "sidebar": "sidebar"
+    },
+    "tech/data-science/dbt": {
+      "id": "tech/data-science/dbt",
+      "title": "DBT",
+      "description": "DBT es una herramienta muy interesante para la transformación de datos, además puede ayudar a realizar al mismo tiempo la documentación del proceso de transformación. Tiene la posibilidad de contratarse como servicio pero también de crear tu propia instancia a través de dbt-core que está escrito en python y posee una licencia Apache 2.0.",
+      "sidebar": "sidebar"
+    },
+    "tech/git/signing-commits": {
+      "id": "tech/git/signing-commits",
+      "title": "Firmando commits",
+      "description": "Para poder firmar los commits que realizamos y aumentar la seguridad al momento de realizar cambios en un repositorio, podemos utilizar una clave GPG.",
+      "sidebar": "sidebar"
+    },
+    "tech/iot/esp32": {
+      "id": "tech/iot/esp32",
+      "title": "ESP-32",
+      "description": "El ESP32 (o en mi caso ESP-wroom-32) es un dispositivo SoC que posee características muy superiores a un Arduino UNO o un ESP826. Dentro de estas características, cuenta con la capacidad de comunicarse vía Wifi y Bluetooth.",
+      "sidebar": "sidebar"
+    },
+    "tech/rust/rust": {
+      "id": "tech/rust/rust",
+      "title": "Rust",
+      "description": "Documentación",
+      "sidebar": "sidebar"
+    },
+    "templates/daily-notes": {
+      "id": "templates/daily-notes",
+      "title": "{{date:YYYY-MMM}}",
+      "description": "{{date: DD}}",
+      "sidebar": "sidebar"
+    }
+  }
+}

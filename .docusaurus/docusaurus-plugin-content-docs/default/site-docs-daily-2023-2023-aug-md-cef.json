@@ -1,0 +1,25 @@
+{
+  "unversionedId": "daily/2023/Aug",
+  "id": "daily/2023/Aug",
+  "title": "2023-Aug",
+  "description": "24",
+  "source": "@site/docs/daily/2023/2023-Aug.md",
+  "sourceDirName": "daily/2023",
+  "slug": "/daily/2023/Aug",
+  "permalink": "/daily/2023/Aug",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/daily/2023/2023-Aug.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2023,
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Deuda Plan Castello",
+    "permalink": "/argentina/rio-negro/deuda-castello"
+  },
+  "next": {
+    "title": "2023-Sep",
+    "permalink": "/daily/2023/Sep"
+  }
+}

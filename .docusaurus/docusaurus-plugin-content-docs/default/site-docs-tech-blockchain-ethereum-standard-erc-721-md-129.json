@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tech/blockchain/ethereum/standard/erc-721",
+  "id": "tech/blockchain/ethereum/standard/erc-721",
+  "title": "ERC-721",
+  "description": "Tokens no fungibles",
+  "source": "@site/docs/tech/blockchain/ethereum/standard/erc-721.md",
+  "sourceDirName": "tech/blockchain/ethereum/standard",
+  "slug": "/tech/blockchain/ethereum/standard/erc-721",
+  "permalink": "/tech/blockchain/ethereum/standard/erc-721",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/tech/blockchain/ethereum/standard/erc-721.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ERC-721"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Introducción Ethereum",
+    "permalink": "/tech/blockchain/ethereum/"
+  },
+  "next": {
+    "title": "Foundry",
+    "permalink": "/tech/blockchain/tools/foundry/"
+  }
+}

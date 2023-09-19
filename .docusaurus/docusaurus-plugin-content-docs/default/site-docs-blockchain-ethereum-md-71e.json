@@ -1,0 +1,26 @@
+{
+  "unversionedId": "blockchain/ethereum",
+  "id": "blockchain/ethereum",
+  "title": "Ethereum",
+  "description": "Introducción",
+  "source": "@site/docs/blockchain/ethereum.md",
+  "sourceDirName": "blockchain",
+  "slug": "/blockchain/ethereum",
+  "permalink": "/blockchain/ethereum",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/blockchain/ethereum.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Ethereum"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tenderly",
+    "permalink": "/blockchain/Tenderly"
+  },
+  "next": {
+    "title": "Herramientas - Inteligencia artificial",
+    "permalink": "/artificial-intelligence/tools"
+  }
+}

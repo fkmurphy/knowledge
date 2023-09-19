@@ -1,0 +1,142 @@
+{
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-RW3MFPJBQW"
+      ],
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "argentina/historico/viedma/inundacion-1899/inundacion-1899",
+              "path": "/argentina/historico/viedma/inundacion-1899/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "argentina/historico/viedma/inundacion-1899/planos-inundacion-1899",
+              "path": "/argentina/historico/viedma/inundacion-1899/planos-inundacion-1899",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "argentina/rio-negro/deuda-castello",
+              "path": "/argentina/rio-negro/deuda-castello",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "daily/2023/Aug",
+              "path": "/daily/2023/Aug",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "daily/2023/Sep",
+              "path": "/daily/2023/Sep",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/artificial-intelligence/artificial-intelligence",
+              "path": "/tech/artificial-intelligence/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/artificial-intelligence/confusion-matrix",
+              "path": "/tech/artificial-intelligence/confusion-matrix",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/artificial-intelligence/rasa/rasa",
+              "path": "/tech/artificial-intelligence/rasa/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/artificial-intelligence/tools",
+              "path": "/tech/artificial-intelligence/tools",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/blockchain/ethereum/ethereum",
+              "path": "/tech/blockchain/ethereum/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/blockchain/ethereum/standard/erc-721",
+              "path": "/tech/blockchain/ethereum/standard/erc-721",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/blockchain/tools/foundry/foundry",
+              "path": "/tech/blockchain/tools/foundry/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/blockchain/tools/tenderly/tenderly",
+              "path": "/tech/blockchain/tools/tenderly/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/blockchain/tools/tenderly/verificar-smart-contract",
+              "path": "/tech/blockchain/tools/tenderly/verificar-smart-contract",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/data-science/data-science",
+              "path": "/tech/data-science/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/data-science/dbt",
+              "path": "/tech/data-science/dbt",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/git/signing-commits",
+              "path": "/tech/git/signing-commits",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/iot/esp32",
+              "path": "/tech/iot/esp32",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "tech/rust/rust",
+              "path": "/tech/rust/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "templates/daily-notes",
+              "path": "/templates/daily-notes",
+              "sidebar": "sidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "sidebar": {
+              "link": {
+                "path": "/argentina/historico/viedma/inundacion-1899/",
+                "label": "Inundación del 1899 - El Juncal"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

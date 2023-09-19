@@ -1,0 +1,26 @@
+{
+  "unversionedId": "data-science/data-science",
+  "id": "data-science/data-science",
+  "title": "Ciencia de datos",
+  "description": "Links",
+  "source": "@site/docs/data-science/data-science.md",
+  "sourceDirName": "data-science",
+  "slug": "/data-science/",
+  "permalink": "/data-science/",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/data-science/data-science.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Ciencia de datos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Herramientas - Inteligencia artificial",
+    "permalink": "/artificial-intelligence/tools"
+  },
+  "next": {
+    "title": "DBT",
+    "permalink": "/data-science/dbt"
+  }
+}

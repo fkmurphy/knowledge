@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tech/artificial-intelligence/artificial-intelligence",
+  "id": "tech/artificial-intelligence/artificial-intelligence",
+  "title": "Inteligencia Artificial",
+  "description": "Artículos interesantes",
+  "source": "@site/docs/tech/artificial-intelligence/artificial-intelligence.md",
+  "sourceDirName": "tech/artificial-intelligence",
+  "slug": "/tech/artificial-intelligence/",
+  "permalink": "/tech/artificial-intelligence/",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/tech/artificial-intelligence/artificial-intelligence.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Inteligencia Artificial"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Introducción",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Matriz de confusión",
+    "permalink": "/tech/artificial-intelligence/confusion-matrix"
+  }
+}

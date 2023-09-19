@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tech/blockchain/tools/foundry/foundry",
+  "id": "tech/blockchain/tools/foundry/foundry",
+  "title": "Foundry",
+  "description": "Foundry es una herramienta para desarrollar smart contract utilizando Solidity. Este set de herramientas permite gestionar dependencias, realizar diferentes tipos de test, hacer debug, exportar reportes de gas, verificar contratos, realizar scripts para automatizar tareas, entre otros.",
+  "source": "@site/docs/tech/blockchain/tools/foundry/foundry.md",
+  "sourceDirName": "tech/blockchain/tools/foundry",
+  "slug": "/tech/blockchain/tools/foundry/",
+  "permalink": "/tech/blockchain/tools/foundry/",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/tech/blockchain/tools/foundry/foundry.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Foundry"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "ERC-721",
+    "permalink": "/tech/blockchain/ethereum/standard/erc-721"
+  },
+  "next": {
+    "title": "Tenderly",
+    "permalink": "/tech/blockchain/tools/tenderly/"
+  }
+}

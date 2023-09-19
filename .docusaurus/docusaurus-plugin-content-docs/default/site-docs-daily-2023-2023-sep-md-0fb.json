@@ -1,0 +1,25 @@
+{
+  "unversionedId": "daily/2023/Sep",
+  "id": "daily/2023/Sep",
+  "title": "2023-Sep",
+  "description": "05",
+  "source": "@site/docs/daily/2023/2023-Sep.md",
+  "sourceDirName": "daily/2023",
+  "slug": "/daily/2023/Sep",
+  "permalink": "/daily/2023/Sep",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/daily/2023/2023-Sep.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2023,
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "2023-Aug",
+    "permalink": "/daily/2023/Aug"
+  },
+  "next": {
+    "title": "Introducción",
+    "permalink": "/"
+  }
+}

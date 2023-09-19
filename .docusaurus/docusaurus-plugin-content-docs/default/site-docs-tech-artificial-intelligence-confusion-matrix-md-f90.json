@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tech/artificial-intelligence/confusion-matrix",
+  "id": "tech/artificial-intelligence/confusion-matrix",
+  "title": "Matriz de confusión",
+  "description": "La matriz de confusión permite comparar las predicciones realizadas por un modelo contra las categorizaciones reales de los casos.",
+  "source": "@site/docs/tech/artificial-intelligence/confusion-matrix.md",
+  "sourceDirName": "tech/artificial-intelligence",
+  "slug": "/tech/artificial-intelligence/confusion-matrix",
+  "permalink": "/tech/artificial-intelligence/confusion-matrix",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/tech/artificial-intelligence/confusion-matrix.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Matriz de confusión"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Inteligencia Artificial",
+    "permalink": "/tech/artificial-intelligence/"
+  },
+  "next": {
+    "title": "Rasa - Chatbot",
+    "permalink": "/tech/artificial-intelligence/rasa/"
+  }
+}

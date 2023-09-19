@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tech/rust/rust",
+  "id": "tech/rust/rust",
+  "title": "Rust",
+  "description": "Documentación",
+  "source": "@site/docs/tech/rust/rust.md",
+  "sourceDirName": "tech/rust",
+  "slug": "/tech/rust/",
+  "permalink": "/tech/rust/",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/tech/rust/rust.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Rust"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "ESP-32",
+    "permalink": "/tech/iot/esp32"
+  },
+  "next": {
+    "title": "{{date:YYYY-MMM}}",
+    "permalink": "/templates/daily-notes"
+  }
+}

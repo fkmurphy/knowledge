@@ -1,0 +1,27 @@
+{
+  "unversionedId": "artificial-intelligence/rasa/rasa",
+  "id": "artificial-intelligence/rasa/rasa",
+  "title": "Rasa - Chatbot",
+  "description": "Recomiendo el libro Introduction to Chatbots and the Rasa Framework  de Xiaoquan Kong y Guan Wang.",
+  "source": "@site/docs/artificial-intelligence/rasa/rasa.md",
+  "sourceDirName": "artificial-intelligence/rasa",
+  "slug": "/artificial-intelligence/rasa/",
+  "permalink": "/artificial-intelligence/rasa/",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/artificial-intelligence/rasa/rasa.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Rasa - Chatbot",
+    "tags": []
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Matriz de confusión",
+    "permalink": "/artificial-intelligence/confusion-matrix"
+  },
+  "next": {
+    "title": "Herramientas - Inteligencia artificial",
+    "permalink": "/artificial-intelligence/tools"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "unversionedId": "rasa-nlu.png",
+  "id": "rasa-nlu.png",
+  "title": "rasa-nlu.png",
+  "description": "",
+  "source": "@site/docs/rasa-nlu.png.md",
+  "sourceDirName": ".",
+  "slug": "/rasa-nlu.png",
+  "permalink": "/rasa-nlu.png",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/rasa-nlu.png.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

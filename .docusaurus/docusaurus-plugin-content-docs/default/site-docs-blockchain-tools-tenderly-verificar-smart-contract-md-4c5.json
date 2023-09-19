@@ -1,0 +1,26 @@
+{
+  "unversionedId": "blockchain/tools/tenderly/verificar-smart-contract",
+  "id": "blockchain/tools/tenderly/verificar-smart-contract",
+  "title": "Verificar un smart contract",
+  "description": "Al momento de probar un smart contract con Tenderly posiblemente quieras verificarlo para usar sus funciones y analizar su funcionamiento.",
+  "source": "@site/docs/blockchain/tools/tenderly/verificar-smart-contract.md",
+  "sourceDirName": "blockchain/tools/tenderly",
+  "slug": "/blockchain/tools/tenderly/verificar-smart-contract",
+  "permalink": "/blockchain/tools/tenderly/verificar-smart-contract",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/blockchain/tools/tenderly/verificar-smart-contract.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Verificar un smart contract"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tenderly",
+    "permalink": "/blockchain/tools/tenderly/"
+  },
+  "next": {
+    "title": "Inteligencia Artificial",
+    "permalink": "/artificial-intelligence/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tech/data-science/data-science",
+  "id": "tech/data-science/data-science",
+  "title": "Ciencia de datos",
+  "description": "Links",
+  "source": "@site/docs/tech/data-science/data-science.md",
+  "sourceDirName": "tech/data-science",
+  "slug": "/tech/data-science/",
+  "permalink": "/tech/data-science/",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/tech/data-science/data-science.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Ciencia de datos"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Verificar un smart contract",
+    "permalink": "/tech/blockchain/tools/tenderly/verificar-smart-contract"
+  },
+  "next": {
+    "title": "DBT",
+    "permalink": "/tech/data-science/dbt"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "()",
+  "id": "()",
+  "title": "()",
+  "description": "",
+  "source": "@site/docs/().md",
+  "sourceDirName": ".",
+  "slug": "/()",
+  "permalink": "/()",
+  "draft": false,
+  "editUrl": "https://github.com/nikitavoloboev/knowledge/tree/main/docs/().md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Ethereum",
+    "permalink": "/blockchain/Ethereum"
+  }
+}

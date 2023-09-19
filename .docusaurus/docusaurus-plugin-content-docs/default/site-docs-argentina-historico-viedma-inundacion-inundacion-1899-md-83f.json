@@ -1,0 +1,26 @@
+{
+  "unversionedId": "argentina/historico/viedma/inundacion/inundacion-1899",
+  "id": "argentina/historico/viedma/inundacion/inundacion-1899",
+  "title": "Inundación del 1899 - El Juncal",
+  "description": "La geografía no es algo que sea mi fuerte, sin embargo, hay algunas cosas interesantes que vistas desde el lado histórico y económico pueden resultar muy útiles.",
+  "source": "@site/docs/argentina/historico/viedma/inundacion/inundacion-1899.md",
+  "sourceDirName": "argentina/historico/viedma/inundacion",
+  "slug": "/argentina/historico/viedma/inundacion/inundacion-1899",
+  "permalink": "/argentina/historico/viedma/inundacion/inundacion-1899",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/argentina/historico/viedma/inundacion/inundacion-1899.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Inundación del 1899 - El Juncal"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Herramientas - Inteligencia artificial",
+    "permalink": "/artificial-intelligence/tools"
+  },
+  "next": {
+    "title": "Planos - Inundación 1899",
+    "permalink": "/argentina/historico/viedma/inundacion/planos-inundacion-1899"
+  }
+}

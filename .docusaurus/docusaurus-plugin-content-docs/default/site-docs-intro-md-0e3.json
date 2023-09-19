@@ -1,0 +1,27 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Introducción",
+  "description": "Con la intención de crear un índice de conocimiento de lo que voy leyendo sobre diversos temas, creo este espacio.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/",
+    "title": "Introducción"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "2023-Sep",
+    "permalink": "/daily/2023/Sep"
+  },
+  "next": {
+    "title": "Inteligencia Artificial",
+    "permalink": "/tech/artificial-intelligence/"
+  }
+}

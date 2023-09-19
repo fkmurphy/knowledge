@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tech/data-science/dbt",
+  "id": "tech/data-science/dbt",
+  "title": "DBT",
+  "description": "DBT es una herramienta muy interesante para la transformación de datos, además puede ayudar a realizar al mismo tiempo la documentación del proceso de transformación. Tiene la posibilidad de contratarse como servicio pero también de crear tu propia instancia a través de dbt-core que está escrito en python y posee una licencia Apache 2.0.",
+  "source": "@site/docs/tech/data-science/dbt.md",
+  "sourceDirName": "tech/data-science",
+  "slug": "/tech/data-science/dbt",
+  "permalink": "/tech/data-science/dbt",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/tech/data-science/dbt.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "DBT"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Ciencia de datos",
+    "permalink": "/tech/data-science/"
+  },
+  "next": {
+    "title": "Firmando commits",
+    "permalink": "/tech/git/signing-commits"
+  }
+}

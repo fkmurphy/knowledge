@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tech/blockchain/tools/tenderly/tenderly",
+  "id": "tech/blockchain/tools/tenderly/tenderly",
+  "title": "Tenderly",
+  "description": "Como herramienta de desarrollo y análisis para blockchain, es una excelente opción. Como herramienta paga, queda a tu criterio jaja.",
+  "source": "@site/docs/tech/blockchain/tools/tenderly/tenderly.md",
+  "sourceDirName": "tech/blockchain/tools/tenderly",
+  "slug": "/tech/blockchain/tools/tenderly/",
+  "permalink": "/tech/blockchain/tools/tenderly/",
+  "draft": false,
+  "editUrl": "https://github.com/fkmurphy/knowledge/tree/main/docs/tech/blockchain/tools/tenderly/tenderly.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Tenderly"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Foundry",
+    "permalink": "/tech/blockchain/tools/foundry/"
+  },
+  "next": {
+    "title": "Verificar un smart contract",
+    "permalink": "/tech/blockchain/tools/tenderly/verificar-smart-contract"
+  }
+}
