@@ -60,19 +60,6 @@ Este se encarga de extraer las entidades. Para esto se recomienda probar [`DIETC
 ###### Intent classifier component
 Estos se encargan de asignar un `intent` definido en el dominio. Dejo el enlace al [listado oficial](https://rasa.com/docs/rasa/components#intent-classifiers)
 
-#### Salida de NLU
-La salida del NLU es un JSON que puede ser visualizado en modo debug al interacturar con el `CLI` de Rasa. El contenido que posee es:
-- Texto plano de lo que insertó el usuario
-- El intento que se predijo
-- Las `entities` detectadas:
-	- dónde están ubicadas en el texto esto es representado por las propiedades `start` y `end` (indexado como python de `[0, n-1]`),
-	- el valor, 
-	- el tipo
-	- quién lo extrajo
-	- el campo `confidence`
-	- (otros)
-- Un ranking de `intents`, cómo se valorizó cada uno de los `intent` mediante un campo `confidence`. Puede tener un valor como `5.1388444108963013e-05`.
-- Hay campos adicionales como `response_selector` y `additional_info`.
 #### Formato del archivo de entrenamiento
 El archivo `nlu.yml` está ubicado dentro de la carpeta `data/` y actúa como datos de entrenamiento para Rasa NLU. Está en formato YAML. [Documentación oficial](https://rasa.com/docs/rasa/training-data-format/#nlu-training-data)
 
@@ -148,6 +135,48 @@ Un detalle importante es que tanto las `regex` como los `lookup` se pueden usar 
 1. utilizando `RegexFeaturizer` que agrega una funcionalidad a la tabla y ayuda al contexto para decidir si lo marcado por la expresión regular es lo que se buscaba. Por ejemplo, si se ingresa un número de 5 dígitos y no se refería a el código postal, sería un error. 
 2. Otra forma de utilizarlo es a través de `RegexEntityExtractor` que está basado en reglas pero puede ser muy eficiente para algunos casos de uso.
 
+#### Salida de NLU
+La salida del NLU es un JSON que puede ser visualizado en modo debug al interacturar con el `CLI` de Rasa. El contenido que posee es:
+- Texto plano de lo que insertó el usuario
+- El intento que se predijo
+- Las `entities` detectadas:
+	- dónde están ubicadas en el texto esto es representado por las propiedades `start` y `end` (indexado como python de `[0, n-1]`),
+	- el valor, 
+	- el tipo
+	- quién lo extrajo
+	- el campo `confidence`
+	- (otros)
+- Un ranking de `intents`, cómo se valorizó cada uno de los `intent` mediante un campo `confidence`. Puede tener un valor como `5.1388444108963013e-05`.
+- Hay campos adicionales como `response_selector` y `additional_info` que provienen de componentes que pueden agregar información al a salida.
+
+#### Entrenando
+Para ejecutar el entrenamiento del modelo:
+```sh
+rasa train nlu
+```
+
+Este comando usará los datos de entrenamiento en `data/` guiándose por la configuración del pipeline en `config.yml`. El modelo resultante se guarda comprimido en `models/` con el prefijo `nlu-`.
+
+#### Usando el NLU
+Se puede hacer un test interactivo a través del `CLI` usando el comando
+```sh
+rasa shell nlu
+```
+
+También se puede indicar el modelo si tenemos múltiples
+```sh
+rasa shell -m models/nlu-<timestamp>.tar.gz
+```
+
+Rasa provee de una API Restful en HTTP, para disponibilizarla:
+```sh
+rasa run ---enable api
+```
+
+Un ejemplo de prueba de la API puede realizarlo mediante curl:
+```sh
+curl localhost:50005/model/parse -d '{"text": "hello"}'
+```
 ## Rasa SDK
 Este paquete permite crear acciones personalizadas como por ejemplo llamar a servicios externos para realizar tareas (por ejemplo llamar a una api que provee el clima o los precios de las criptomonedas principales). Estas acciones personalizadas se ejecutan en un proceso individual y a su módulo se lo llama `Action server`. Dicho módulo se comunica directamente con Rasa Core mediante HTTP. 
 
