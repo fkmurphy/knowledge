@@ -24,7 +24,7 @@ En este paso lo más importante a destacar es que la clave privada jamás debe s
 
 ## 4. Registrar la wallet en BFA
 Los datos que tendremos en este punto son:
-- Dirección de la wallet de metamask. Va a ser parecido a: `0xbd8ee0bxxxxxx8xx5a8dasdx1`
+- Dirección de la wallet de metamask. Va a ser parecido a: `0xbdaaa0aabbbccc35aaaaaaaaaaa0aaaaa8b126aa`
 - Firma del mensaje. Es algo parecido al siguiente texto: `0x8d....0e57337af3000a4432c33e72293xxxx4c669cdexxxxx203f5c0eceb2fe80bc17437bb008e9e.....59f2f19565231xxxx03de7f81ad1b`
 
 Entonces con estos datos:
@@ -36,6 +36,11 @@ Entonces con estos datos:
 6. Completa el campo `Signature` con la firma del mensaje que se obtuvo en el punto 3
 7. Click en agregar.
 
+![](https://imgur.com/uJqOe92.png)
+
 En poco tiempo se marcará la cuenta como verificada y se acreditará ether.
+![](https://imgur.com/ST4HejI.png)
+
+----
 
 **Nota:** si no desea utilizar la herramienta propuesta en la guía, dejo otra [similar de un tercero que encontré](https://ernestognw.github.io/ethereum_signature/dist/index.html). Usted puede utilizar cualquier sitio que sea de su confianza y le permita firmar un mensaje con su wallet.
