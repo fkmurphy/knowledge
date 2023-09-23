@@ -15,4 +15,4 @@ Creo que es válido decir que el poder de procesamiento es brindado de forma gra
 ## Crear una wallet
 Para comenzar a transaccionar en BFA es necesario registrarse en el sitio oficial y luego agregar una wallet. El proceso de creación de cuenta suele ser rápido si ya se tiene experiencia con las herramientas del instructivo oficial. En esta wiki se encuentran dos formas de llevar a cabo el proceso:
 - [Simple - Usando Metamask](./metamask-create-wallet)
-- Procedimiento oficial (en proceso)
+- [Procedimiento oficial - Guía](./create-bfa-wallet-official-process)
