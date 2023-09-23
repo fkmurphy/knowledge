@@ -37,3 +37,5 @@ Entonces con estos datos:
 7. Click en agregar.
 
 En poco tiempo se marcará la cuenta como verificada y se acreditará ether.
+
+**Nota:** si no desea utilizar la herramienta propuesta en la guía, dejo otra [similar de un tercero que encontré](https://ernestognw.github.io/ethereum_signature/dist/index.html). Usted puede utilizar cualquier sitio que sea de su confianza y le permita firmar un mensaje con su wallet.
