@@ -6,7 +6,7 @@ Esta blockchain es un fork de Ethereum en la versión byzantium (2017), utiliza 
 
 Existen otros tipos de nodos. Por ejemplo los nodos transaccionales proveen servicios directos a usuarios finales permitiendo a usuarios comunicarse con la blockchain y así utilizar los contratos inteligentes.
 
-Hay una documentación sobre los [conceptos base](https://gitlab.bfa.ar/blockchain/docs/-/wikis/ConceptosYCompromisos) y también una [introducción con un lenguaje no tan técnico](https://gitlab.bfa.ar/blockchain/docs/-/wikis/Brief-BFA).
+La documentación sobre los [conceptos base](https://gitlab.bfa.ar/blockchain/docs/-/wikis/ConceptosYCompromisos) y también [introducción con un lenguaje no tan técnico](https://gitlab.bfa.ar/blockchain/docs/-/wikis/Brief-BFA).
 ## Sobre el gas
 La blockchain de BFA permite realizar transacciones de forma gratuita, esto implica que el _Ether_ es gratuito siendo sólo una formalidad representativa del costo operacional (_gas_) al momento de procesar la petición del usuario.
 
