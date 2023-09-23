@@ -8,19 +8,20 @@ Para poder usar una wallet en BFA hay que realizar cuatro pasos.
 ## 1. Registrarse con un correo electrónico en la web oficial
 Lo primero que hay que hacer es registrarse con un correo electrónico en el sitio oficial de BFA. La dirección exacta del formulario de registro es la siguiente: https://registro.bfa.ar/accounts/register/. En caso de que este enlace cambie, es posible acceder desde https://bfa.ar buscando el botón de ingresar.
 
-## 2. Agregar tu wallet
-Una vez que la cuenta está creada y es accesible, hay que crear una wallet en Metamask. Para ello hay muchísimos artículos y videos que voy a listar a continuación. Recomiendo usar la extensión del navegador y que se asegure de instalar la extensión correcta, por ejemplo en el caso de [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+## 2. Crear la wallet
+Una vez que la cuenta está creada y es accesible, hay que crear una wallet en Metamask. Para ello hay muchísimos artículos y videos que voy a listar a continuación. Recomiendo usar la extensión del navegador y asegurarse de instalar la extensión correcta, por ejemplo en el caso de [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 - [Comenzar con Metamask - Oficial](https://support.metamask.io/hc/es/articles/360015489531-Comenzar-con-MetaMask)
 - [Video - Cómo crear una billetera en Metamask](https://www.youtube.com/watch?v=Wwb9D0j2hn0)
 
 ## 3. Firmar un mensaje
-En este paso lo más importante a destacar es que la clave privada jamás debe ser compartida. Es por ello que BFA no va a pedirte nunca tu clave privada. Para demostrar que se es propietario de una determinada dirección (wallet), podes firmar un mensaje. Para ello creé la siguiente herramienta https://firmar.julianmurphy.ar/. 
+En este paso lo más importante a destacar es que la clave privada jamás debe ser compartida. Es por ello que ningún miembro de BFA va a pedir la clave privada. Para demostrar que se es propietario de una determinada dirección (wallet), podes firmar un mensaje. Para ello creé la siguiente herramienta https://firmar.julianmurphy.ar/. 
 1. Acceder al [sitio](https://firmar.julianmurphy.ar/) con el navegador donde está instalada la wallet de metamask 
-2. Hacer click al botón conectar
-3. Click al botón `Firmar`
-4. Metamask va a solicitarte si queres aceptar o rechazar la firma, por supuesto, hay que aceptar.
+2. Hacer click al botón conectar, aquí Metamask preguntará si desea conectar y debe aceptar.
+3. Una vez conectado, Click al botón `Firmar`
+4. Metamask solicitará si se quiere aceptar o rechazar el proceso de firmado. Por supuesto, hay que aceptar.
 5. En el campo `Firma` aparecerá un texto (`hash`) que es la firma que se va a utilizar para comprobar que se es dueño de esa dirección.
-6. Además, en la parte inferior está un texto adicional donde se puede copiar la dirección de la wallet por si fuera necesario.
+
+Además, en la parte inferior hay un texto adicional donde se puede copiar la dirección de la wallet por si fuera necesario.
 
 ## 4. Registrar la wallet en BFA
 Los datos que tendremos en este punto son:
