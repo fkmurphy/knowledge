@@ -23,6 +23,6 @@ El gobierno de Río Negro pagó los intereses que vencían el 10 de septiembre d
 
 La provincia emitió un [bono de 5000 millones](https://ws.bolsar.info/descarga/pdf/431935.pdf) de pesos en julio pasado, aprobado mediante el Decreto N 72/23 y resolución 295/2023.
 
-Aproximadamente, [el Plan Castello ocupa el 73% de la deuda](https://www.rionegro.com.ar/politica/la-devaluacion-tiene-un-impacto-inmediato-en-la-deuda-en-dolares-de-rio-negro-3087619/) sin incluir los intereses. En el próximo año se espera un pago de 92 millones de dolares.
+Aproximadamente, [el Plan Castello ocupa el 73% de la deuda](https://www.rionegro.com.ar/politica/la-devaluacion-tiene-un-impacto-inmediato-en-la-deuda-en-dolares-de-rio-negro-3087619/) sin incluir los intereses. En el próximo año se espera un pago de 92 millones de dólares.
 
 Artículo en proceso.
