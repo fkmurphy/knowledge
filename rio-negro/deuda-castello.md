@@ -25,4 +25,20 @@ La provincia emitió un [bono de 5000 millones](https://ws.bolsar.info/descarga/
 
 Aproximadamente, [el Plan Castello ocupa el 73% de la deuda](https://www.rionegro.com.ar/politica/la-devaluacion-tiene-un-impacto-inmediato-en-la-deuda-en-dolares-de-rio-negro-3087619/) sin incluir los intereses. En el próximo año se espera un pago de 92 millones de dólares.
 
-Artículo en proceso.
+### Pagos en marzo 2024
+El día 10/03/2024 la provincia de Río Negro debe realizar el primer pago de amortización por el bono RND25 correspondiente al Plan Castello.
+
+### Articulos interesantes relacionados al tema
+- [Consejo de Bariloche - ampliar fondos fondo fiduciario](https://concejobariloche.gov.ar/proyectos//PROYECTO%201086-18%20MODIFICA%20ORDENANZA%202945-CM-18.%20PLAN%20CASTELLO.%20AMPLIA%20FONDOS.pdf)
+- [Viedma - Analisis del Plan Gob. Castello: alcances respecto de las necesidades de desarrollo en la ciudad de Viedma y la creación de un fondo fiduciario para su ejecución, en el periodo 2017-2021](http://rdi.uncoma.edu.ar/bitstream/handle/uncomaid/16486/Tesis%20An%C3%A1lisis%20Plan%20Castello_Torres%2C%20Daiana.pdf?sequence=1&isAllowed=y)
+- [Informe de ejecución del presupuesto del gobierno de la prov. De Río Negro](https://asap.org.ar/img_informes/03031302_RioNegro1SEM19.pdf)
+- [Río Negro no pagó el bono castello y Carreras habló con el presidente](https://www.rionegro.com.ar/rio-negro-no-pago-el-bono-castello-y-carreras-hablo-con-el-presidente-1423552/)
+
+#### Noticias de 2024
+- [Ramos Mexia ya cuenta con gas natural](https://semanariobariloche.com.ar/ramos-mexia-ya-cuenta-con-gas-natural/)
+
+### Documentos
+- https://web.archive.org/web/20240227115840/https://static1.squarespace.com/static/5fba906960151b0e3146f048/t/5fdbc0cfae197c3b816a0f07/1608237264307/Provincia+de+Rio+Negro-+Anuncia+de+los+resultados+de+la+solicitud+de+consentimiento.pdf
+- [Pago de septiembre 2023](https://archive.org/details/11septiembre-rnd-25-rio-negro)
+
+
