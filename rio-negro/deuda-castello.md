@@ -32,6 +32,13 @@ Según el Diario Río Negro (Autor: Adrian Pecollo):
 > En el inicio de abril, se cumplirá el primer vencimiento semestral para pagar el capital del bono Castello. El total de la cuota será de 47 millones de dólares. “Se pagará”, afirmó Weretilneck. el mandatario.
 > Después precisaría que esa obligación se afrontará con **“recursos propios y un préstamo del banco Patagonia**, que actualmente Economía está negociando”.
 
+Pagar la deuda parece ajeno a la realidad de los rionegrinos, sin embargo, entrar en default (más considerando que esta deuda es Ley New York) implicaría que los tenedores pueden reclamar dinero de los fondos que recibe la provincia, incluyendo las regalías por exportación. Además, cualquier intento de toma de deuda nueva es poco probable o posiblemente tenga tasas muy elevadas.
+
+Algunas preguntas que surgen:
+- Cuál será este nuevo préstamo que otorgará el Banco Patagonia?
+- Por qué la provincia parece no tener proyección a futuro? Por el momento parecen solo palabras las de afrontar todos los problemas económicos sin depender de nación
+- Se está reduciendo el gasto en la provincia? Los datos de empleo privado son cada vez peores.
+
 
 ### Articulos interesantes relacionados al tema
 - [Consejo de Bariloche - ampliar fondos fondo fiduciario](https://concejobariloche.gov.ar/proyectos//PROYECTO%201086-18%20MODIFICA%20ORDENANZA%202945-CM-18.%20PLAN%20CASTELLO.%20AMPLIA%20FONDOS.pdf)
