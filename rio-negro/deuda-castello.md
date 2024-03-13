@@ -35,12 +35,33 @@ Según el Diario Río Negro (Autor: Adrian Pecollo):
 Pagar la deuda parece ajeno a la realidad de los rionegrinos, sin embargo, entrar en default (más considerando que esta deuda es Ley New York) implicaría que los tenedores pueden reclamar dinero de los fondos que recibe la provincia, incluyendo las regalías por exportación. Además, cualquier intento de toma de deuda nueva es poco probable o posiblemente tenga tasas muy elevadas.
 
 Algunas preguntas que surgen:
-- Cuál será este nuevo préstamo que otorgará el Banco Patagonia?
+- Cuál será este nuevo préstamo que otorgará el Banco Patagonia? Respondido en el pago del 10 de marzo 2024.
 - Por qué la provincia parece no tener proyección a futuro? Por el momento parecen solo palabras las de afrontar todos los problemas económicos sin depender de nación
 - Se está reduciendo el gasto en la provincia? Los datos de empleo privado son cada vez peores.
 
+#### Pago 10 marzo 2024
+El gobierno de Río Negro pagó la renta y amortización de capital del bono RND25 por un total de 46.586.557 (46 millones) de dólares. Para esto solicitó un préstamo al Banco Patagonia por 20.000.000.000 de pesos o en otras palabras 20 millones de dólares (aprox) al cambio de ese día.
 
-### Articulos interesantes relacionados al tema
+El préstamo fue publicado en el boletín oficial 6267 del 07 de marzo de 2024, mediante el decreto número 143/24. En principio los detalles a tener en cuenta:
+
+Como garantía se utilizaran las regalías de la provincia, esto se menciona en el **artículo primero**.
+>Artículo 1: Autorízase al Ministerio de Hacienda, en el marco de la Ley N° 5.683, a contratar con el Banco Patagonia S.A., un Préstamo por hasta la suma de pesos veinte mil millones ($ 20.000.000.000) y a ceder en garantía de las obligaciones de pago el derecho sobre los Recursos del Régimen de Coparticipación Federal de Impuestos que le corresponda a la provincia, de acuerdo a lo establecido por los artículos 1°, 2° y 3° del Acuerdo Nación - Provincias sobre la Relación Financiera y Bases de un Régimen de Coparticipación Federal de Impuestos ratificado por ley nacional n° 25570 o el régimen que lo sustituya.
+
+También se indica en el prefacio
+>“Se faculta al Poder Ejecutivo, a efectos de instrumentar las operaciones de crédito público autorizadas en el presente Capítulo, a afectar los Recursos del Régimen de Coparticipación Federal de Impuestos que le corresponda a la provincia, de acuerdo a lo establecido por los artículos 1°, 2° y 3° del Acuerdo Nación - Provincias sobre la Relación Financiera y Bases de un Régimen de Coparticipación Federal de Impuestos ratificado por ley nacional n° 25570 o el régimen que lo sustituya, en la medida de la autorización prevista en la ley H n° 5663, las Regalías Petrolíferas y adicionalmente otros recursos provinciales, en la medida de la utilización de la autorización para el uso del crédito contenida en este presupuesto y/o para garantizar operaciones de crédito con organismos internacionales autorizadas en la presente ley y/o para refinanciar deudas contraídas por la provincia, con el Estado Nacional y/o instituciones financieras en las que esté prevista la afectación y por un importe total igual a las cuotas de amortización e intereses que venzan en el Ejercicio Fiscal 2024 o por el total de estas deudas, aun cuando sus vencimientos operen en ejercicios futuros
+
+El **artículo 2** indica que el plazo total es de 180 días una vez hecho efectivo el desembolso. No podrá superar el 31 de diciembre del 2024.
+- Tasa de interés variable, adicionando 600 puntos básicos (6%) a la última tasa BADLAR en pesos de entidades financieras privadas para depósitos a plazo fijo de 30-35 días y de más de 1 millón de pesos. Esta es informada por el BCRA.
+- Amortización en 6 cuotas mensuales, iguales y consecutivas con vencimiento la primera de ella a los 30 días de la fecha de desembolso y las restantes cada 30 días. Utilizará el Sistema Francés.
+- Se deja constancia de que la garantía son los fondos de coparticipación.
+
+Enlace al boletín https://boletinoficial.rionegro.gov.ar/download/boletin/6267.pdf
+
+Parece que el gobierno está planificando acelerar las aprobaciones de minería para la línea sur de Río Negro.
+
+La pregunta ahora es, cómo se pagarán los otros 46 millones de dólares restantes de este año?
+
+### Artículos interesantes relacionados al tema
 - [Consejo de Bariloche - ampliar fondos fondo fiduciario](https://concejobariloche.gov.ar/proyectos//PROYECTO%201086-18%20MODIFICA%20ORDENANZA%202945-CM-18.%20PLAN%20CASTELLO.%20AMPLIA%20FONDOS.pdf)
 - [Viedma - Analisis del Plan Gob. Castello: alcances respecto de las necesidades de desarrollo en la ciudad de Viedma y la creación de un fondo fiduciario para su ejecución, en el periodo 2017-2021](http://rdi.uncoma.edu.ar/bitstream/handle/uncomaid/16486/Tesis%20An%C3%A1lisis%20Plan%20Castello_Torres%2C%20Daiana.pdf?sequence=1&isAllowed=y)
 - [Informe de ejecución del presupuesto del gobierno de la prov. De Río Negro](https://asap.org.ar/img_informes/03031302_RioNegro1SEM19.pdf)
