@@ -16,9 +16,7 @@ Con la intención de crear un índice de conocimiento de lo que voy leyendo sobr
 - ML
 	- [Chatbot Rasa Framework](artificial-intelligence/rasa/rasa.md)
 	- [Herramientas de usuario final - Inteligencia Artificial](artificial-intelligence/tools)
-	- [Writeups - Seguridad](security/writeups)
-- [Daily Agosto](./daily/2023/2023-Aug.md)
-- [Daily Septiembre](./daily/2023/2023-Sep.md)
+	- [Writeups - Seguridad](./security/writeups)
 
 ## Licencia
 La licencia para todo el contenido que se encuentra en este sitio es CC4
