@@ -116,10 +116,9 @@ Vemos que en el usuario 0mar tenemos el archivo user.txt
 <img src="./attachments/fig17.png" />
 <figcaption></figcaption>
 </figure>
-Flag user.txt `9OWiub9aDwcULNxs4w80W63Jl`
+
 
 Y como somos administrador, podemos ver el desktop también de este usuario. Obtenemos admin.txt
-Flag admin.txt `j9eCpd89VGOscar4nQp8e842mUOb8U`
 <figure>
 <img src="./attachments/fig18.png" />
 <figcaption></figcaption>

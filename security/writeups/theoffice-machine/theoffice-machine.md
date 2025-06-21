@@ -455,7 +455,7 @@ Observamos que sólo podemos ingresar al host `172.101.0.11`
 </figure>
 
 En su home obtenemos la primera flag (archivo `user.txt`)
-`flag{61992ce8bc28cb06461c82d62584e718}`
+`flag{xxxxxxxxxxxxxxxxxxxxxxx}`
 
 <figure>
 <img src="./attachments/fig56.png" alt="cat user.txt">
@@ -620,6 +620,3 @@ Finalmente nos dirigimos a la carpeta /root y tenemos el archivo que buscábamos
 <img src="./attachments/fig75.png" alt="get flag root.txt">
 </figure>
 
-```
-flag{f73a64a82b4dbeaf43f308999c5b380f}
-```

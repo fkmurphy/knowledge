@@ -64,7 +64,7 @@ Como vemos, el usuario `melanie` tiene una clave dentro del diccionario de rocky
 <figcaption></figcaption>
 </figure>
 
-En el home del usuario está la primera flag del archivo `user.txt 9fe2028a405f33a6dae75e4c60c78f82`
+En el home del usuario está la primera flag del archivo `user.txt`
 <figure>
 <img src="./attachments/fig10.png" />
 <figcaption></figcaption>
@@ -98,8 +98,6 @@ Listamos en el directorio `/root` y obtenemos la flag `root.txt`
 <img src="./attachments/fig15.png" />
 <figcaption></figcaption>
 </figure>
-
-914ea930fea11076f641cc3970187d29
 
 También se podría haber generado en el atacante o llevarnos la llave al atacante
 <figure>
