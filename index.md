@@ -18,6 +18,7 @@ Con la intención de crear un índice de conocimiento de lo que voy leyendo sobr
 	- [Herramientas de usuario final - Inteligencia Artificial](artificial-intelligence/tools)
 - Seguridad
 	- [Writeups > TheOffice Machine](./security/writeups/theoffice-machine/theoffice-machine.md)
+	- [Writeups > Dockerlabs](./security/writeups/dockerlabs/dockerlabs.md)
 
 ## Licencia
 La licencia para todo el contenido que se encuentra en este sitio es CC4
