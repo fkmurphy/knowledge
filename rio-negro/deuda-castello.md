@@ -61,6 +61,12 @@ Parece que el gobierno está planificando acelerar las aprobaciones de minería 
 
 La pregunta ahora es, cómo se pagarán los otros 46 millones de dólares restantes de este año?
 
+#### Pago Septiembre 2024
+Se realizó el pago en dólares con el aviso del Cr. Bernardo D. Pesado.
+[Diario Río Negro - Pago](https://www.rionegro.com.ar/economia/rio-negro-pago-deuda-del-plan-castello-por-casi-46-millones-de-dolares-3783477/)
+
+Además, emitió nueva letras del tesoro por 11.000 millones de pesos a tasa Badlar + 7% con vencimiento a diciembre del 2025.
+
 ### Artículos interesantes relacionados al tema
 - [Consejo de Bariloche - ampliar fondos fondo fiduciario](https://concejobariloche.gov.ar/proyectos//PROYECTO%201086-18%20MODIFICA%20ORDENANZA%202945-CM-18.%20PLAN%20CASTELLO.%20AMPLIA%20FONDOS.pdf)
 - [Viedma - Analisis del Plan Gob. Castello: alcances respecto de las necesidades de desarrollo en la ciudad de Viedma y la creación de un fondo fiduciario para su ejecución, en el periodo 2017-2021](http://rdi.uncoma.edu.ar/bitstream/handle/uncomaid/16486/Tesis%20An%C3%A1lisis%20Plan%20Castello_Torres%2C%20Daiana.pdf?sequence=1&isAllowed=y)
