@@ -1,5 +1,6 @@
 ---
 title: Inundación del 1899 - El Juncal - Viedma
+description: Documentación, testimonios y planos sobre la inundación de Viedma de 1899 producida por el desborde simultáneo del Río Negro y la laguna El Juncal.
 ---
 # Inundación del 1899 - El Juncal - Viedma
 ## Sobre el libro

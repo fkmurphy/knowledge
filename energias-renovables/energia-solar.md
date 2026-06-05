@@ -1,5 +1,6 @@
 ---
 title: Energía Solar
+description: "Cómo evaluar si conviene invertir en energía solar en Argentina: heliofanía, datos del SMN y consideraciones de costo previas a la instalación de paneles."
 ---
 ## Datos antes de la inversión
 En Argentina suele ser difícil tomar la decisión si invertir en energías renovables en zonas con servicio eléctrico ya que las tarifas están subsidiadas. Obviamente existen lugares donde no llega el servicio y la generación de energía eléctrica mediante paneles solares es una muy buena opción.

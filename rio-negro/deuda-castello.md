@@ -1,5 +1,6 @@
 ---
 title: Deuda Plan Castello
+description: Histórico y análisis del bono RND25 de 300 millones de dólares de la provincia de Río Negro (Plan Castello), su reestructuración y los pagos realizados desde 2023.
 ---
 # Deuda Plan Castello
 

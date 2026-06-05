@@ -1,5 +1,6 @@
 ---
 title: Río Negro
+description: "Notas y referencias sobre la provincia de Río Negro: la inundación de Viedma de 1899, el Plan Castello y otros temas históricos y económicos."
 ---
 # Río Negro
 

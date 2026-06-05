@@ -1,6 +1,7 @@
 ---
 slug: /
 title: Introducción
+description: Wiki personal de Julián Murphy con notas sobre blockchain, IA, ciberseguridad, datos, IoT, energías renovables y referencias históricas y económicas de Río Negro.
 ---
 
 # [Knowledge](https://wiki.julianmurphy.ar)
