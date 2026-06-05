@@ -1,6 +1,7 @@
 ---
 slug: /
-title: Introducción
+title: "Knowledge — Notas técnicas e históricas de Julián Murphy"
+titleTemplate: false
 description: Wiki personal de Julián Murphy con notas sobre blockchain, IA, ciberseguridad, datos, IoT, energías renovables y referencias históricas y económicas de Río Negro.
 ---
 
