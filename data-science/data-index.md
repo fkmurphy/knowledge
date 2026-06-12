@@ -1,6 +1,6 @@
 ---
 title: DataIndex — índice de precios de supermercados
-description: Proyecto de índice de precios de supermercados en Argentina: scraping de precios, histórico por producto y métricas de inflación en alimentos.
+description: "Proyecto de índice de precios de supermercados en Argentina: scraping de precios, histórico por producto y métricas de inflación en alimentos."
 ---
 
 # DataIndex
