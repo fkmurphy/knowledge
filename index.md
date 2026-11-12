@@ -24,9 +24,7 @@ Con la intención de crear un índice de conocimiento de lo que voy leyendo sobr
 	- [Writeups > TheOffice Machine](./security/writeups/theoffice-machine/theoffice-machine.md)
 	- [Writeups > Dockerlabs](./security/writeups/dockerlabs/dockerlabs.md)
 - [Mapa de proveedores para el cultivo de hongos](./hongos/mapa-proveedores.md)
-- Blog (archivo)
-	- [Hello World](./blog/hello-world.md)
-	- [Knowledge — por qué armé esta wiki](./blog/knowledge.md)
+- [Knowledge — por qué armé esta wiki](./blog/knowledge.md)
 
 ## Licencia
 La licencia para todo el contenido que se encuentra en este sitio es CC4
