@@ -24,6 +24,8 @@ Para comenzar a transaccionar en BFA es necesario registrarse en el sitio oficia
 - [Simple - Usando Metamask](./metamask-create-wallet)
 - [Procedimiento oficial - Guía](./create-bfa-wallet-official-process)
 
+Para firmar el mensaje desde el navegador con Metamask armé una herramienta: [Firmar mensajes con Ethers.js](./sign-message-ethers).
+
 ## Red de producción y red de prueba
 
 La red de producción posee una carpeta específica en el núcleo llamada `network` y su NetworkID es: `47525974938 (0xb10c4d39a)`. El `chainId` de la red es `200941592 (0xbfa2018)`
