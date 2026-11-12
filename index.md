@@ -15,12 +15,18 @@ Con la intención de crear un índice de conocimiento de lo que voy leyendo sobr
 	- [Ethereum](blockchain/ethereum/ethereum.md)
 	- [Foundry](blockchain/tools/foundry/foundry.md)
 	- [Tenderly](blockchain/tools/tenderly/tenderly.md)
+	- [Links sobre cripto](blockchain/crypto-links.md)
+	- [Links de trabajo en cripto](blockchain/crypto-jobs.md)
 - ML
 	- [Chatbot Rasa Framework](artificial-intelligence/rasa/rasa.md)
 	- [Herramientas de usuario final - Inteligencia Artificial](artificial-intelligence/tools)
 - Seguridad
 	- [Writeups > TheOffice Machine](./security/writeups/theoffice-machine/theoffice-machine.md)
 	- [Writeups > Dockerlabs](./security/writeups/dockerlabs/dockerlabs.md)
+- [Mapa de proveedores para el cultivo de hongos](./hongos/mapa-proveedores.md)
+- Blog (archivo)
+	- [Hello World](./blog/hello-world.md)
+	- [Knowledge — por qué armé esta wiki](./blog/knowledge.md)
 
 ## Licencia
 La licencia para todo el contenido que se encuentra en este sitio es CC4
